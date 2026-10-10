@@ -80,9 +80,7 @@ export default function VisitaSection({ preselectedHorse }: VisitaSectionProps) 
             <h3 className="font-serif text-2xl font-semibold text-[#EFEAE1] mb-2">
               Formulario de visita
             </h3>
-            <p className="font-sans text-xs text-[#9A958B] mb-6">
-              Al enviar se abre WhatsApp con su mensaje listo. Le contestamos el mismo día.
-            </p>
+            
 
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
@@ -179,9 +177,7 @@ export default function VisitaSection({ preselectedHorse }: VisitaSectionProps) 
                 </button>
               </div>
 
-              <p className="font-mono text-[10px] text-[#9A958B] pt-1 text-center">
-                Al enviar se abre WhatsApp con su mensaje listo. Le contestamos el mismo día.
-              </p>
+              
             </form>
           </div>
 
@@ -213,7 +209,7 @@ export default function VisitaSection({ preselectedHorse }: VisitaSectionProps) 
               <strong className="text-[#EFEAE1] block mb-1 font-serif text-sm">
                 Zapotlanejo, Jalisco · A 38 minutos de Guadalajara
               </strong>
-              Las instalaciones son rentadas; los caballos pertenecen a Cuadra Imperial Loy. La ubicación con mapa se envía directamente al agendar su cita por WhatsApp.
+              Visitas privadas previa cita. Coordine su llegada de forma directa.
             </div>
           </div>
 

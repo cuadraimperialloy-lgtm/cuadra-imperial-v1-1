@@ -120,19 +120,7 @@ export default function Hero() {
         </span>
       </div>
 
-      {/* Cierre del corto de entrada (5.5): "No hace falta decir nada." */}
-      <div className="absolute bottom-8 left-6 sm:left-10 z-20 hidden md:block">
-        <p className="font-serif italic text-sm text-[#C9C2B5]/90 tracking-wide">
-          &ldquo;No hace falta decir nada.&rdquo;
-        </p>
-      </div>
-
-      {/* Scroll indicator icon */}
-      <div className="absolute bottom-6 inset-x-0 z-20 flex justify-center pointer-events-none">
-        <div className="w-5 h-8 rounded-full border border-white/30 flex items-start justify-center p-1">
-          <div className="w-1 h-2 rounded-full bg-[#D4AF37] animate-bounce" />
-        </div>
-      </div>
+      
 
     </section>
   );

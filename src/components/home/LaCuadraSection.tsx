@@ -59,16 +59,14 @@ export default function LaCuadraSection() {
             <p className="font-sans text-xs sm:text-sm text-[#C9C2B5] leading-relaxed mb-4">
               Presenta y trabaja los caballos en el picadero y prepara con la cuadra las notas de cada ficha. Su oficio y constancia garantizan que el caballo se presente tal cual es, sin trucos ni maquillaje.
             </p>
-            <p className="font-sans text-xs text-[#9A958B]">
-              &ldquo;Notas de la cuadra · Víctor Hernández, caballerango.&rdquo;
-            </p>
+            
           </div>
 
           <div className="p-5 rounded bg-[#141414] border border-[#34312C] text-xs text-[#C9C2B5] font-sans leading-relaxed">
             <strong className="text-[#D4AF37] block mb-1 font-mono uppercase text-[11px]">
               Zapotlanejo, Jalisco · A 38 minutos de Guadalajara
             </strong>
-            Por discreción y seguridad, la ubicación exacta con mapa directo se le envía al coordinar su cita por WhatsApp. Las instalaciones son rentadas; los ejemplares son propiedad de Cuadra Imperial Loy.
+            Visitas privadas con atención personalizada previa cita en la cuadra.
           </div>
         </div>
 

@@ -79,7 +79,7 @@ export const HORSES: Horse[] = [
     canBeMounted: true,
     tagline: "Así levanta las manos. Escúchelo.",
     description: "Caballo frisón importado de Holanda. Con pasaporte y papeles que pasan a su nombre. Trabajo enfocado en elevación de manos, paso cadenciado y baile.",
-    stableNotes: "Trabaja con franqueza bajo la montura y levanta con fuerza las manos al bailar. Acostumbrado al ruido, a la gente cerca y a la música. Notas de la cuadra · Víctor Hernández, caballerango.",
+    stableNotes: "Trabaja con franqueza bajo la montura y levanta con fuerza las manos al bailar. Acostumbrado al ruido, a la gente cerca y a la música.",
     flaw: "Le falta templarse más cuando hay yeguas en celo trabajando a la par en la pista.",
     documents: "Pasaporte y papeles de Holanda, que pasan a su nombre.",
     registration: {
@@ -120,7 +120,7 @@ export const HORSES: Horse[] = [
     canBeMounted: true,
     tagline: "Paso largo y buen braceo.",
     description: "Caballo frisón importado de Holanda. Registro original holandés y papeles que pasan a nombre del comprador. Gran elasticidad en pista.",
-    stableNotes: "Paso largo y buen braceo. Responde suave a la pierna y a la rienda. Acostumbrado a sesiones de trabajo diario. Notas de la cuadra · Víctor Hernández, caballerango.",
+    stableNotes: "Paso largo y buen braceo. Responde suave a la pierna y a la rienda. Acostumbrado a sesiones de trabajo diario.",
     flaw: "Le falta calma al momento de subir al remolque; requiere paciencia y entrar a su propio paso.",
     documents: "Pasaporte y papeles de Holanda, que pasan a su nombre.",
     registration: {
@@ -161,7 +161,7 @@ export const HORSES: Horse[] = [
     canBeMounted: true,
     tagline: "Tranco firme, ideal para el rancho y la familia.",
     description: "Caballo frisón castrado importado de Holanda. Registrado en el Stamboek de adultos de la KFPS tras su inspección oficial.",
-    stableNotes: "Caballo noble y firme de tranco. Muy seguro para jinetes de cualquier nivel y para convivir en familia en el rancho. Notas de la cuadra · Víctor Hernández, caballerango.",
+    stableNotes: "Caballo noble y firme de tranco. Muy seguro para jinetes de cualquier nivel y para convivir en familia en el rancho.",
     flaw: "Le falta mayor chispa para baile rápido; es un caballo de paseo, disfrute y cabalgata tranquila.",
     documents: "Pasaporte y papeles de Holanda, que pasan a su nombre.",
     registration: {
@@ -198,7 +198,7 @@ export const HORSES: Horse[] = [
     canBeMounted: false,
     tagline: "Tres años. Para formarlo a su gusto.",
     description: "Potro frisón joven importado de Holanda. Con pasaporte y registro KFPS. En formación pie a tierra.",
-    stableNotes: "Trabajado a la cuerda y cabestreo pie a tierra. Muy despierto y receptivo al manejo diario. Todavía no se monta. Notas de la cuadra · Víctor Hernández, caballerango.",
+    stableNotes: "Trabajado a la cuerda y cabestreo pie a tierra. Muy despierto y receptivo al manejo diario. Todavía no se monta.",
     flaw: "Le falta todo el proceso de rienda y montura; es un potro joven para quien desea formarlo a su mano.",
     documents: "Pasaporte y papeles de Holanda, que pasan a su nombre.",
     registration: {

@@ -142,7 +142,7 @@ export default function HorseDetailClient({ horse }: HorseDetailClientProps) {
       doc.setFont("times", "bold");
       doc.setFontSize(12);
       doc.setTextColor(gold[0], gold[1], gold[2]);
-      doc.text("NOTAS DE LA CUADRA · VÍCTOR HERNÁNDEZ, CABALLERANGO", 15, 163);
+      doc.text("NOTAS DE LA CUADRA", 15, 163);
 
       doc.setFont("helvetica", "normal");
       doc.setFontSize(9);
@@ -387,7 +387,7 @@ export default function HorseDetailClient({ horse }: HorseDetailClientProps) {
                   {horse.stableNotes}
                 </p>
                 <span className="font-mono text-[11px] text-[#D4AF37] block">
-                  Notas de la cuadra · Víctor Hernández, caballerango
+                  Notas de la cuadra
                 </span>
               </div>
 

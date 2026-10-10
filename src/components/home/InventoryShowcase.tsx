@@ -189,11 +189,7 @@ export default function InventoryShowcase() {
                       <span>{t("catalog.askPrice")}</span>
                     </button>
 
-                    <p className="font-mono text-[10px] text-[#9A958B] text-center pt-1">
-                      {currency === "USD"
-                        ? "Price quoted on request in USD/MXN. Guaranteed transparency."
-                        : "El precio se da por mensaje en pesos o dólares, el mismo día."}
-                    </p>
+                    
                   </div>
                 </div>
               </div>
@@ -201,36 +197,7 @@ export default function InventoryShowcase() {
           })}
         </div>
 
-        {/* Bloque ¿Busca algo específico? Podemos buscarlo (PDF) */}
-        <div className="mt-16 p-8 rounded-lg bg-[#1D1C1A] border border-[#34312C] flex flex-col md:flex-row items-center justify-between gap-6">
-          <div>
-            <h3 className="font-serif text-2xl font-semibold text-[#EFEAE1] mb-1">
-              ¿Busca algo específico? <i className="italic font-normal text-[#D4AF37]">Podemos buscarlo.</i>
-            </h3>
-            <p className="font-sans text-xs sm:text-sm text-[#C9C2B5] max-w-xl">
-              Díganos qué edad, alzada o disciplina busca, o regístrese para recibir un aviso una sola vez cuando llegue un ejemplar que coincida.
-            </p>
-          </div>
-
-          <div className="flex flex-col sm:flex-row gap-3 w-full md:w-auto shrink-0">
-            <button
-              type="button"
-              onClick={handleCustomSearch}
-              className="px-5 py-3 rounded bg-[#D4AF37] hover:bg-[#F5D061] text-[#141414] text-xs font-medium uppercase tracking-wider transition-colors text-center"
-            >
-              Dígame qué tiene en mente
-            </button>
-            <button
-              type="button"
-              onClick={handleNotifyNew}
-              className="px-5 py-3 rounded border border-[#34312C] hover:border-[#D4AF37] text-[#EFEAE1] hover:text-[#D4AF37] text-xs font-medium uppercase tracking-wider transition-colors text-center bg-[#141414]"
-            >
-              Avíseme cuando llegue uno nuevo
-            </button>
-          </div>
         </div>
-
-      </div>
     </section>
   );
 }

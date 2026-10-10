@@ -151,9 +151,7 @@ export default function Footer() {
                   +52 33 1702 6066
                 </a>
               </p>
-              <p className="text-[11px] text-[#9A958B]">
-                Atención directa · Respuesta el mismo día
-              </p>
+              
             </div>
           </div>
 

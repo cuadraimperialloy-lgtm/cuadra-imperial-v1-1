@@ -4,7 +4,7 @@ import React from "react";
 import { Horse } from "@/data/horses";
 import { MessageCircle } from "lucide-react";
 
-const WHATSAPP_NUMBER = "523326060218";
+const WHATSAPP_NUMBER = "523317026066";
 
 interface HorsePriceProps {
   horse: Horse;
@@ -28,9 +28,7 @@ export default function HorsePrice({ horse }: HorsePriceProps) {
         <MessageCircle className="w-3.5 h-3.5" />
         <span>Pedir precio por WhatsApp</span>
       </button>
-      <span className="font-mono text-[10px] text-[#9A958B] text-center">
-        El precio se da por mensaje, el mismo día.
-      </span>
+      
     </div>
   );
 }
