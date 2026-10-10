@@ -155,7 +155,7 @@ export default function QuickQuote() {
                   <div className="pt-1">
                     <button
                       type="submit"
-                      className="w-full py-3 sm:py-3.5 bg-[#B8860B] hover:bg-[#D9B25A] text-[#09090B] rounded-lg font-bold text-xs uppercase tracking-widest transition-colors flex items-center justify-center gap-2 shadow-lg"
+                      className="w-full py-3 sm:py-3.5 bg-[#B8860B] hover:bg-[#F5D061] text-[#09090B] rounded-lg font-bold text-xs uppercase tracking-widest transition-colors flex items-center justify-center gap-2 shadow-lg"
                     >
                       <span>Solicitar Opciones de Compra</span>
                       <Send className="w-3.5 h-3.5" />

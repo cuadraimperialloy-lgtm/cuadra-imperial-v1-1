@@ -7,18 +7,18 @@ export default function PrivacidadPage() {
       <div className="max-w-4xl mx-auto">
         <Link 
           href="/" 
-          className="inline-flex items-center gap-2 text-[#9A958B] hover:text-[#A8894F] transition-colors mb-8 font-mono text-xs uppercase tracking-wider"
+          className="inline-flex items-center gap-2 text-[#9A958B] hover:text-[#D4AF37] transition-colors mb-8 font-mono text-xs uppercase tracking-wider"
         >
           <ArrowLeft className="w-4 h-4" /> Volver al Inicio
         </Link>
 
         <div className="bg-[#1D1C1A] p-8 md:p-12 rounded-lg border border-[#34312C] shadow-sm">
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-10 h-10 rounded-full border border-[#A8894F]/40 bg-[#141414] flex items-center justify-center text-[#A8894F]">
+            <div className="w-10 h-10 rounded-full border border-[#D4AF37]/40 bg-[#141414] flex items-center justify-center text-[#D4AF37]">
               <Shield className="w-5 h-5" />
             </div>
             <div>
-              <span className="font-mono text-xs text-[#A8894F] uppercase tracking-widest block">Cuadra Imperial Loy</span>
+              <span className="font-mono text-xs text-[#D4AF37] uppercase tracking-widest block">Cuadra Imperial Loy</span>
               <h1 className="font-serif text-3xl md:text-4xl font-semibold text-[#EFEAE1]">Aviso de Privacidad</h1>
             </div>
           </div>

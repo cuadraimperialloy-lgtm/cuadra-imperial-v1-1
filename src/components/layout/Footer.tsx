@@ -59,17 +59,17 @@ export default function Footer() {
             <div className="flex items-center gap-3 pt-2">
               <div className="flex items-center gap-1.5" title="Sede: Jalisco, México">
                 <MexicoFlag className="w-5 h-3.5" />
-                <span className="font-mono text-[10px] text-[#A8894F]">México</span>
+                <span className="font-mono text-[10px] text-[#D4AF37]">México</span>
               </div>
               <span className="text-[#34312C]">•</span>
               <div className="flex items-center gap-1.5" title="Entrega: Estados Unidos">
                 <UsaFlag className="w-5 h-3.5" />
-                <span className="font-mono text-[10px] text-[#A8894F]">USA</span>
+                <span className="font-mono text-[10px] text-[#D4AF37]">USA</span>
               </div>
               <span className="text-[#34312C]">•</span>
               <div className="flex items-center gap-1.5" title="Origen: Países Bajos (KFPS)">
                 <NetherlandsFlag className="w-5 h-3.5" />
-                <span className="font-mono text-[10px] text-[#A8894F]">Holanda</span>
+                <span className="font-mono text-[10px] text-[#D4AF37]">Holanda</span>
               </div>
             </div>
 
@@ -79,7 +79,7 @@ export default function Footer() {
                 href="https://www.facebook.com/CuadraImperialLoy"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2.5 rounded-full bg-[#1D1C1A] border border-[#34312C] hover:border-[#A8894F] hover:text-[#A8894F] transition-colors"
+                className="p-2.5 rounded-full bg-[#1D1C1A] border border-[#34312C] hover:border-[#D4AF37] hover:text-[#D4AF37] transition-colors"
                 title="Facebook Oficial"
               >
                 <FacebookIcon className="w-4 h-4" />
@@ -88,7 +88,7 @@ export default function Footer() {
                 href="https://www.instagram.com/cuadraimperialloy"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2.5 rounded-full bg-[#1D1C1A] border border-[#34312C] hover:border-[#A8894F] hover:text-[#A8894F] transition-colors"
+                className="p-2.5 rounded-full bg-[#1D1C1A] border border-[#34312C] hover:border-[#D4AF37] hover:text-[#D4AF37] transition-colors"
                 title="Instagram Oficial"
               >
                 <InstagramIcon className="w-4 h-4" />
@@ -97,7 +97,7 @@ export default function Footer() {
                 href="https://www.tiktok.com/@cuadraimperialloy"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2.5 rounded-full bg-[#1D1C1A] border border-[#34312C] hover:border-[#A8894F] hover:text-[#A8894F] transition-colors"
+                className="p-2.5 rounded-full bg-[#1D1C1A] border border-[#34312C] hover:border-[#D4AF37] hover:text-[#D4AF37] transition-colors"
                 title="TikTok Oficial"
               >
                 <TikTokIcon className="w-4 h-4" />
@@ -106,7 +106,7 @@ export default function Footer() {
                 href={`https://wa.me/${WHATSAPP_NUMBER}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2.5 rounded-full bg-[#1D1C1A] border border-[#34312C] hover:border-[#A8894F] hover:text-[#A8894F] transition-colors"
+                className="p-2.5 rounded-full bg-[#1D1C1A] border border-[#34312C] hover:border-[#D4AF37] hover:text-[#D4AF37] transition-colors"
                 title="WhatsApp Oficial"
               >
                 <MessageCircle className="w-4 h-4" />
@@ -116,23 +116,23 @@ export default function Footer() {
 
           {/* Menú de Navegación del PDF */}
           <div className="md:col-span-4 flex flex-col space-y-3">
-            <h4 className="font-mono text-xs uppercase tracking-widest text-[#A8894F] font-semibold">
+            <h4 className="font-mono text-xs uppercase tracking-widest text-[#D4AF37] font-semibold">
               Navegación
             </h4>
             <ul className="space-y-2 font-sans text-xs text-[#C9C2B5]">
-              <li><Link href="/caballos" className="hover:text-[#A8894F] transition-colors">Caballos en venta</Link></li>
-              <li><Link href="/#visita" className="hover:text-[#A8894F] transition-colors">La visita</Link></li>
-              <li><Link href="/#garantia" className="hover:text-[#A8894F] transition-colors">Garantía</Link></li>
-              <li><Link href="/#la-cuadra" className="hover:text-[#A8894F] transition-colors">La cuadra</Link></li>
-              <li><Link href="/#entrega" className="hover:text-[#A8894F] transition-colors">La entrega</Link></li>
-              <li><Link href="/#la-raza" className="hover:text-[#A8894F] transition-colors">La raza KFPS</Link></li>
-              <li><Link href="/#preguntas" className="hover:text-[#A8894F] transition-colors">Preguntas frecuentes</Link></li>
+              <li><Link href="/caballos" className="hover:text-[#D4AF37] transition-colors">Caballos en venta</Link></li>
+              <li><Link href="/#visita" className="hover:text-[#D4AF37] transition-colors">La visita</Link></li>
+              <li><Link href="/#garantia" className="hover:text-[#D4AF37] transition-colors">Garantía</Link></li>
+              <li><Link href="/#la-cuadra" className="hover:text-[#D4AF37] transition-colors">La cuadra</Link></li>
+              <li><Link href="/#entrega" className="hover:text-[#D4AF37] transition-colors">La entrega</Link></li>
+              <li><Link href="/#la-raza" className="hover:text-[#D4AF37] transition-colors">La raza KFPS</Link></li>
+              <li><Link href="/#preguntas" className="hover:text-[#D4AF37] transition-colors">Preguntas frecuentes</Link></li>
             </ul>
           </div>
 
           {/* Contacto & Atención */}
           <div className="md:col-span-3 flex flex-col space-y-3">
-            <h4 className="font-mono text-xs uppercase tracking-widest text-[#A8894F] font-semibold">
+            <h4 className="font-mono text-xs uppercase tracking-widest text-[#D4AF37] font-semibold">
               Atención Comercial
             </h4>
             <div className="space-y-2 text-xs text-[#C9C2B5]">
@@ -145,7 +145,7 @@ export default function Footer() {
                   href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Buen día. Quisiera pedir información sobre los caballos disponibles.")}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-[#A8894F] hover:underline font-mono"
+                  className="inline-flex items-center gap-1.5 text-[#D4AF37] hover:underline font-mono"
                 >
                   <MessageCircle className="w-3.5 h-3.5" />
                   +52 33 1702 6066

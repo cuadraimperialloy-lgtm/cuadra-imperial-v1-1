@@ -7,18 +7,18 @@ export default function TerminosPage() {
       <div className="max-w-4xl mx-auto">
         <Link 
           href="/" 
-          className="inline-flex items-center gap-2 text-[#9A958B] hover:text-[#A8894F] transition-colors mb-8 font-mono text-xs uppercase tracking-wider"
+          className="inline-flex items-center gap-2 text-[#9A958B] hover:text-[#D4AF37] transition-colors mb-8 font-mono text-xs uppercase tracking-wider"
         >
           <ArrowLeft className="w-4 h-4" /> Volver al Inicio
         </Link>
 
         <div className="bg-[#1D1C1A] p-8 md:p-12 rounded-lg border border-[#34312C] shadow-sm">
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-10 h-10 rounded-full border border-[#A8894F]/40 bg-[#141414] flex items-center justify-center text-[#A8894F]">
+            <div className="w-10 h-10 rounded-full border border-[#D4AF37]/40 bg-[#141414] flex items-center justify-center text-[#D4AF37]">
               <FileText className="w-5 h-5" />
             </div>
             <div>
-              <span className="font-mono text-xs text-[#A8894F] uppercase tracking-widest block">Cuadra Imperial Loy</span>
+              <span className="font-mono text-xs text-[#D4AF37] uppercase tracking-widest block">Cuadra Imperial Loy</span>
               <h1 className="font-serif text-3xl md:text-4xl font-semibold text-[#EFEAE1]">Términos y Condiciones Comerciales</h1>
             </div>
           </div>
@@ -37,7 +37,7 @@ export default function TerminosPage() {
 
             <section>
               <h2 className="font-serif text-xl font-semibold text-[#EFEAE1] mb-2">2. Garantía Contractual</h2>
-              <div className="p-4 rounded bg-[#141414] border-l-2 border-[#A8894F] text-[#EFEAE1] font-serif text-base mb-2">
+              <div className="p-4 rounded bg-[#141414] border-l-2 border-[#D4AF37] text-[#EFEAE1] font-serif text-base mb-2">
                 &ldquo;El contrato garantiza: pasaporte y papeles de Holanda, que pasan a su nombre, y salud al entregar.&rdquo;
               </div>
               <p>

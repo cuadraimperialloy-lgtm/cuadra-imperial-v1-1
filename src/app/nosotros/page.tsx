@@ -30,17 +30,17 @@ export default function NosotrosPage() {
       <div className="max-w-4xl mx-auto">
         <Link 
           href="/" 
-          className="inline-flex items-center gap-2 text-[#9A958B] hover:text-[#A8894F] transition-colors mb-8 font-mono text-xs uppercase tracking-wider"
+          className="inline-flex items-center gap-2 text-[#9A958B] hover:text-[#D4AF37] transition-colors mb-8 font-mono text-xs uppercase tracking-wider"
         >
           <ArrowLeft className="w-4 h-4" /> Volver al Inicio
         </Link>
 
         <div className="mb-12">
-          <span className="font-mono text-xs uppercase tracking-[0.2em] text-[#A8894F] mb-3 block">
+          <span className="font-mono text-xs uppercase tracking-[0.2em] text-[#D4AF37] mb-3 block">
             Cuadra Imperial Loy · Jalisco
           </span>
           <h1 className="font-serif text-4xl sm:text-6xl font-semibold text-[#EFEAE1] mb-6">
-            Misión y principios de <i className="italic font-serif font-normal text-[#A8894F]">la cuadra.</i>
+            Misión y principios de <i className="italic font-serif font-normal text-[#D4AF37]">la cuadra.</i>
           </h1>
           <p className="font-sans text-base sm:text-lg text-[#C9C2B5] leading-relaxed max-w-3xl">
             Una cuadra en Jalisco que vende frisones holandeses importados, con pasaporte y papeles de Holanda. Pocos caballos, escogidos uno por uno. No somos criadero ni broker.
@@ -48,8 +48,8 @@ export default function NosotrosPage() {
         </div>
 
         {/* Misión Vigente */}
-        <div className="p-8 rounded-lg bg-[#1D1C1A] border-l-4 border-l-[#A8894F] border border-[#34312C] mb-12 shadow-sm">
-          <span className="font-mono text-xs text-[#A8894F] uppercase tracking-wider block mb-2 font-semibold">
+        <div className="p-8 rounded-lg bg-[#1D1C1A] border-l-4 border-l-[#D4AF37] border border-[#34312C] mb-12 shadow-sm">
+          <span className="font-mono text-xs text-[#D4AF37] uppercase tracking-wider block mb-2 font-semibold">
             Nuestra Misión
           </span>
           <p className="font-serif text-2xl sm:text-3xl text-[#EFEAE1] leading-snug">
@@ -66,7 +66,7 @@ export default function NosotrosPage() {
             {valores.map((v, i) => (
               <div key={i} className="p-5 rounded-lg bg-[#1D1C1A] border border-[#34312C]">
                 <h3 className="font-serif text-lg font-semibold text-[#EFEAE1] mb-2 flex items-center gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-[#A8894F]" />
+                  <CheckCircle2 className="w-4 h-4 text-[#D4AF37]" />
                   {v.titulo}
                 </h3>
                 <p className="font-sans text-xs sm:text-sm text-[#C9C2B5] leading-relaxed">

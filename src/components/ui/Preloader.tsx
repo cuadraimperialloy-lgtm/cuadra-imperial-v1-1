@@ -42,7 +42,7 @@ export default function Preloader() {
               <span className="font-serif tracking-[0.25em] text-[#EFEAE1] text-xs sm:text-sm uppercase font-semibold">
                 Cuadra Imperial Loy
               </span>
-              <span className="font-mono text-[9px] tracking-[0.3em] text-[#A8894F] uppercase animate-pulse">
+              <span className="font-mono text-[9px] tracking-[0.3em] text-[#D4AF37] uppercase animate-pulse">
                 Jalisco · Países Bajos
               </span>
             </div>

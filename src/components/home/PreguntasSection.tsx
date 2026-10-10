@@ -64,11 +64,11 @@ export default function PreguntasSection() {
         
         {/* Encabezado */}
         <div className="mb-14 text-center">
-          <span className="font-mono text-xs uppercase tracking-[0.2em] text-[#A8894F] mb-3 block">
+          <span className="font-mono text-xs uppercase tracking-[0.2em] text-[#D4AF37] mb-3 block">
             Preguntas
           </span>
           <h2 className="font-serif text-3xl sm:text-5xl lg:text-[44px] text-[#EFEAE1] font-semibold mb-4">
-            Antes de <i className="italic font-serif font-normal text-[#A8894F]">comprar.</i>
+            Antes de <i className="italic font-serif font-normal text-[#D4AF37]">comprar.</i>
           </h2>
           <p className="font-sans text-xs sm:text-sm text-[#C9C2B5] max-w-xl mx-auto leading-relaxed">
             Respuestas claras y directas a lo que la gente pregunta y consulta antes de decidirse por un frisón.
@@ -93,7 +93,7 @@ export default function PreguntasSection() {
                     {faq.pregunta}
                   </span>
                   <ChevronDown
-                    className={`w-4 h-4 text-[#A8894F] transition-transform duration-200 shrink-0 ${
+                    className={`w-4 h-4 text-[#D4AF37] transition-transform duration-200 shrink-0 ${
                       isOpen ? "rotate-180" : ""
                     }`}
                   />

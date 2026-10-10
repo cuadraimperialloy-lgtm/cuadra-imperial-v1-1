@@ -23,7 +23,7 @@ export default function HorseCardTeaser({ horse }: HorseCardTeaserProps) {
   };
 
   return (
-    <div className="rounded-lg bg-[#1D1C1A] border border-[#34312C] hover:border-[#A8894F]/50 transition-all flex flex-col overflow-hidden shadow-sm">
+    <div className="rounded-lg bg-[#1D1C1A] border border-[#34312C] hover:border-[#D4AF37]/50 transition-all flex flex-col overflow-hidden shadow-sm">
       <div className="relative aspect-[4/3] w-full bg-black/60">
         <Image
           src={horse.images[0] || "/images/hero.jpg"}
@@ -50,7 +50,7 @@ export default function HorseCardTeaser({ horse }: HorseCardTeaserProps) {
 
       <div className="p-5 flex-1 flex flex-col justify-between">
         <div>
-          <span className="font-mono text-[11px] text-[#A8894F] uppercase tracking-wider block mb-1">
+          <span className="font-mono text-[11px] text-[#D4AF37] uppercase tracking-wider block mb-1">
             {horse.tag}
           </span>
           <h3 className="font-serif text-2xl font-semibold text-[#EFEAE1] mb-2">
@@ -73,7 +73,7 @@ export default function HorseCardTeaser({ horse }: HorseCardTeaserProps) {
         <div className="pt-3 border-t border-[#34312C] flex flex-col gap-2">
           <Link
             href={`/caballos/${horse.slug}`}
-            className="w-full py-2.5 px-3 rounded bg-transparent border border-[#34312C] hover:border-[#A8894F] text-[#EFEAE1] hover:text-[#A8894F] text-xs font-medium uppercase tracking-wider transition-colors flex items-center justify-center gap-1.5"
+            className="w-full py-2.5 px-3 rounded bg-transparent border border-[#34312C] hover:border-[#D4AF37] text-[#EFEAE1] hover:text-[#D4AF37] text-xs font-medium uppercase tracking-wider transition-colors flex items-center justify-center gap-1.5"
           >
             <span>Conocer a {horse.name}</span>
             <ArrowRight className="w-3.5 h-3.5" />
@@ -82,7 +82,7 @@ export default function HorseCardTeaser({ horse }: HorseCardTeaserProps) {
           <button
             type="button"
             onClick={handleAskPrice}
-            className="w-full py-2.5 px-3 rounded bg-[#A8894F] hover:bg-[#BFA063] text-[#141414] text-xs font-medium uppercase tracking-wider transition-colors flex items-center justify-center gap-1.5"
+            className="w-full py-2.5 px-3 rounded bg-[#D4AF37] hover:bg-[#F5D061] text-[#141414] text-xs font-medium uppercase tracking-wider transition-colors flex items-center justify-center gap-1.5"
           >
             <MessageCircle className="w-3.5 h-3.5" />
             <span>Pedir precio por WhatsApp</span>

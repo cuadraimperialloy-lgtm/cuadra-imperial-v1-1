@@ -6,7 +6,7 @@ export function MexicoFlag({ className = "w-5 h-3.5" }: { className?: string }) 
       <path fill="#006341" d="M0 0h213.3v480H0z"/>
       <path fill="#ffffff" d="M213.3 0h213.4v480H213.3z"/>
       <path fill="#c8102e" d="M426.7 0H640v480H426.7z"/>
-      <circle cx="320" cy="240" r="32" fill="#A8894F"/>
+      <circle cx="320" cy="240" r="32" fill="#D4AF37"/>
     </svg>
   );
 }

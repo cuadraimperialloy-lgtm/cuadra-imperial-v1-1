@@ -56,12 +56,12 @@ export default function VisitaSection({ preselectedHorse }: VisitaSectionProps) 
         
         {/* Encabezado (PDF) */}
         <div className="mb-14">
-          <span className="font-mono text-xs uppercase tracking-[0.2em] text-[#A8894F] mb-3 block">
+          <span className="font-mono text-xs uppercase tracking-[0.2em] text-[#D4AF37] mb-3 block">
             {t("visit.eyebrow")}
           </span>
           <h2 className="font-serif text-3xl sm:text-5xl lg:text-[44px] text-[#EFEAE1] font-semibold mb-4">
             {t("visit.title")}{" "}
-            <i className="italic font-serif font-normal text-[#A8894F]">
+            <i className="italic font-serif font-normal text-[#D4AF37]">
               {t("visit.titleItalic")}
             </i>
           </h2>
@@ -86,7 +86,7 @@ export default function VisitaSection({ preselectedHorse }: VisitaSectionProps) 
 
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
-                <label className="block font-mono text-xs text-[#A8894F] uppercase tracking-wider mb-1.5">
+                <label className="block font-mono text-xs text-[#D4AF37] uppercase tracking-wider mb-1.5">
                   Su nombre *
                 </label>
                 <input
@@ -95,18 +95,18 @@ export default function VisitaSection({ preselectedHorse }: VisitaSectionProps) 
                   value={nombre}
                   onChange={(e) => setNombre(e.target.value)}
                   placeholder="Ej. Don Carlos Mendoza"
-                  className="w-full bg-[#141414] border border-[#34312C] focus:border-[#A8894F] rounded px-3.5 py-2.5 text-xs text-[#EFEAE1] focus:outline-none transition-colors font-sans"
+                  className="w-full bg-[#141414] border border-[#34312C] focus:border-[#D4AF37] rounded px-3.5 py-2.5 text-xs text-[#EFEAE1] focus:outline-none transition-colors font-sans"
                 />
               </div>
 
               <div>
-                <label className="block font-mono text-xs text-[#A8894F] uppercase tracking-wider mb-1.5">
+                <label className="block font-mono text-xs text-[#D4AF37] uppercase tracking-wider mb-1.5">
                   Caballo que quiere ver
                 </label>
                 <select
                   value={caballo}
                   onChange={(e) => setCaballo(e.target.value)}
-                  className="w-full bg-[#141414] border border-[#34312C] focus:border-[#A8894F] rounded px-3.5 py-2.5 text-xs text-[#EFEAE1] focus:outline-none transition-colors font-sans"
+                  className="w-full bg-[#141414] border border-[#34312C] focus:border-[#D4AF37] rounded px-3.5 py-2.5 text-xs text-[#EFEAE1] focus:outline-none transition-colors font-sans"
                 >
                   {HORSES.map((h) => (
                     <option key={h.id} value={h.name}>
@@ -119,7 +119,7 @@ export default function VisitaSection({ preselectedHorse }: VisitaSectionProps) 
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
-                  <label className="block font-mono text-xs text-[#A8894F] uppercase tracking-wider mb-1.5">
+                  <label className="block font-mono text-xs text-[#D4AF37] uppercase tracking-wider mb-1.5">
                     Día que le acomoda
                   </label>
                   <input
@@ -127,18 +127,18 @@ export default function VisitaSection({ preselectedHorse }: VisitaSectionProps) 
                     value={dia}
                     onChange={(e) => setDia(e.target.value)}
                     placeholder="Ej. Este sábado por la tarde"
-                    className="w-full bg-[#141414] border border-[#34312C] focus:border-[#A8894F] rounded px-3.5 py-2.5 text-xs text-[#EFEAE1] focus:outline-none transition-colors font-sans"
+                    className="w-full bg-[#141414] border border-[#34312C] focus:border-[#D4AF37] rounded px-3.5 py-2.5 text-xs text-[#EFEAE1] focus:outline-none transition-colors font-sans"
                   />
                 </div>
 
                 <div>
-                  <label className="block font-mono text-xs text-[#A8894F] uppercase tracking-wider mb-1.5">
+                  <label className="block font-mono text-xs text-[#D4AF37] uppercase tracking-wider mb-1.5">
                     ¿Viene con su caballerango?
                   </label>
                   <select
                     value={conCaballerango}
                     onChange={(e) => setConCaballerango(e.target.value)}
-                    className="w-full bg-[#141414] border border-[#34312C] focus:border-[#A8894F] rounded px-3.5 py-2.5 text-xs text-[#EFEAE1] focus:outline-none transition-colors font-sans"
+                    className="w-full bg-[#141414] border border-[#34312C] focus:border-[#D4AF37] rounded px-3.5 py-2.5 text-xs text-[#EFEAE1] focus:outline-none transition-colors font-sans"
                   >
                     <option value="Sí, con mi caballerango">Sí, con mi caballerango</option>
                     <option value="Voy solo">Voy solo</option>
@@ -149,7 +149,7 @@ export default function VisitaSection({ preselectedHorse }: VisitaSectionProps) 
               </div>
 
               <div>
-                <label className="block font-mono text-xs text-[#A8894F] uppercase tracking-wider mb-1.5">
+                <label className="block font-mono text-xs text-[#D4AF37] uppercase tracking-wider mb-1.5">
                   Mensaje (opcional)
                 </label>
                 <textarea
@@ -157,14 +157,14 @@ export default function VisitaSection({ preselectedHorse }: VisitaSectionProps) 
                   value={mensaje}
                   onChange={(e) => setMensaje(e.target.value)}
                   placeholder="Comentario sobre hora, uso o interés en particular..."
-                  className="w-full bg-[#141414] border border-[#34312C] focus:border-[#A8894F] rounded px-3.5 py-2.5 text-xs text-[#EFEAE1] focus:outline-none transition-colors font-sans"
+                  className="w-full bg-[#141414] border border-[#34312C] focus:border-[#D4AF37] rounded px-3.5 py-2.5 text-xs text-[#EFEAE1] focus:outline-none transition-colors font-sans"
                 />
               </div>
 
               <div className="pt-2 flex flex-col sm:flex-row gap-3">
                 <button
                   type="submit"
-                  className="flex-1 py-3.5 px-4 rounded bg-[#A8894F] hover:bg-[#BFA063] text-[#141414] text-xs font-semibold uppercase tracking-wider transition-colors flex items-center justify-center gap-2 shadow-sm"
+                  className="flex-1 py-3.5 px-4 rounded bg-[#D4AF37] hover:bg-[#F5D061] text-[#141414] text-xs font-semibold uppercase tracking-wider transition-colors flex items-center justify-center gap-2 shadow-sm"
                 >
                   <MessageCircle className="w-4 h-4" />
                   <span>Enviar por WhatsApp</span>
@@ -173,7 +173,7 @@ export default function VisitaSection({ preselectedHorse }: VisitaSectionProps) 
                 <button
                   type="button"
                   onClick={handleDirectChat}
-                  className="py-3.5 px-4 rounded border border-[#34312C] hover:border-[#A8894F] text-[#C9C2B5] hover:text-[#EFEAE1] text-xs font-semibold uppercase tracking-wider transition-colors flex items-center justify-center bg-[#141414]"
+                  className="py-3.5 px-4 rounded border border-[#34312C] hover:border-[#D4AF37] text-[#C9C2B5] hover:text-[#EFEAE1] text-xs font-semibold uppercase tracking-wider transition-colors flex items-center justify-center bg-[#141414]"
                 >
                   <span>Escribir directo</span>
                 </button>
@@ -188,7 +188,7 @@ export default function VisitaSection({ preselectedHorse }: VisitaSectionProps) 
           {/* Los seis pasos del protocolo de visita */}
           <div className="lg:col-span-6 flex flex-col justify-between">
             <div>
-              <span className="font-mono text-xs uppercase tracking-widest text-[#A8894F] block mb-2 font-semibold">
+              <span className="font-mono text-xs uppercase tracking-widest text-[#D4AF37] block mb-2 font-semibold">
                 Protocolo de la visita
               </span>
               <h3 className="font-serif text-2xl font-semibold text-[#EFEAE1] mb-6">
@@ -198,7 +198,7 @@ export default function VisitaSection({ preselectedHorse }: VisitaSectionProps) 
               <div className="space-y-4">
                 {pasos.map((paso) => (
                   <div key={paso.num} className="flex items-start gap-4 p-3.5 rounded bg-[#1D1C1A]/50 border border-[#34312C]/60">
-                    <span className="w-6 h-6 rounded-full bg-[#141414] border border-[#A8894F]/40 text-[#A8894F] font-mono text-xs flex items-center justify-center shrink-0">
+                    <span className="w-6 h-6 rounded-full bg-[#141414] border border-[#D4AF37]/40 text-[#D4AF37] font-mono text-xs flex items-center justify-center shrink-0">
                       {paso.num}
                     </span>
                     <p className="font-sans text-xs sm:text-sm text-[#C9C2B5] leading-relaxed">
@@ -209,7 +209,7 @@ export default function VisitaSection({ preselectedHorse }: VisitaSectionProps) 
               </div>
             </div>
 
-            <div className="mt-8 p-4 rounded bg-[#1D1C1A] border border-[#A8894F]/30 text-xs text-[#C9C2B5] font-sans">
+            <div className="mt-8 p-4 rounded bg-[#1D1C1A] border border-[#D4AF37]/30 text-xs text-[#C9C2B5] font-sans">
               <strong className="text-[#EFEAE1] block mb-1 font-serif text-sm">
                 Zapotlanejo, Jalisco · A 38 minutos de Guadalajara
               </strong>

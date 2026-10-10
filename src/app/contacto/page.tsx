@@ -11,7 +11,7 @@ export default function ContactoPage() {
         
         <Link 
           href="/" 
-          className="inline-flex items-center gap-2 text-[#9A958B] hover:text-[#A8894F] transition-colors mb-8 font-mono text-xs uppercase tracking-wider"
+          className="inline-flex items-center gap-2 text-[#9A958B] hover:text-[#D4AF37] transition-colors mb-8 font-mono text-xs uppercase tracking-wider"
         >
           <ArrowLeft className="w-4 h-4" /> Volver al Inicio
         </Link>

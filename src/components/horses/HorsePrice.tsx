@@ -23,7 +23,7 @@ export default function HorsePrice({ horse }: HorsePriceProps) {
       <button
         type="button"
         onClick={handleAskPrice}
-        className="w-full py-2.5 px-3 rounded bg-[#A8894F] hover:bg-[#BFA063] text-[#141414] text-xs font-medium uppercase tracking-wider transition-colors flex items-center justify-center gap-1.5"
+        className="w-full py-2.5 px-3 rounded bg-[#D4AF37] hover:bg-[#F5D061] text-[#141414] text-xs font-medium uppercase tracking-wider transition-colors flex items-center justify-center gap-1.5"
       >
         <MessageCircle className="w-3.5 h-3.5" />
         <span>Pedir precio por WhatsApp</span>

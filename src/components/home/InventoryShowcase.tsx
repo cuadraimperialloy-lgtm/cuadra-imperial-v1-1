@@ -62,13 +62,13 @@ export default function InventoryShowcase() {
         {/* Header con Controles de Carrusel (estilo cuadra-imperial.vercel.app) */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 sm:mb-14 gap-6">
           <div>
-            <div className="inline-flex items-center gap-2 text-[11px] sm:text-xs font-mono uppercase tracking-[0.25em] text-[#A8894F] mb-3">
-              <Sparkles className="w-3.5 h-3.5 text-[#A8894F]" />
+            <div className="inline-flex items-center gap-2 text-[11px] sm:text-xs font-mono uppercase tracking-[0.25em] text-[#D4AF37] mb-3">
+              <Sparkles className="w-3.5 h-3.5 text-[#D4AF37]" />
               <span>{t("catalog.eyebrow")}</span>
             </div>
             <h2 className="font-serif text-3xl sm:text-5xl lg:text-[44px] text-[#EFEAE1] font-semibold">
               {t("catalog.title")}{" "}
-              <i className="italic font-serif font-normal text-[#A8894F]">
+              <i className="italic font-serif font-normal text-[#D4AF37]">
                 {t("catalog.titleItalic")}
               </i>
             </h2>
@@ -85,7 +85,7 @@ export default function InventoryShowcase() {
               disabled={!canScrollLeft}
               className={`p-3 rounded-full border transition-all ${
                 canScrollLeft
-                  ? "border-[#A8894F] text-[#EFEAE1] hover:bg-[#A8894F] hover:text-[#141414]"
+                  ? "border-[#D4AF37] text-[#EFEAE1] hover:bg-[#D4AF37] hover:text-[#141414]"
                   : "border-[#34312C] text-[#5F584E] cursor-not-allowed"
               }`}
               aria-label="Anterior"
@@ -98,7 +98,7 @@ export default function InventoryShowcase() {
               disabled={!canScrollRight}
               className={`p-3 rounded-full border transition-all ${
                 canScrollRight
-                  ? "border-[#A8894F] text-[#EFEAE1] hover:bg-[#A8894F] hover:text-[#141414]"
+                  ? "border-[#D4AF37] text-[#EFEAE1] hover:bg-[#D4AF37] hover:text-[#141414]"
                   : "border-[#34312C] text-[#5F584E] cursor-not-allowed"
               }`}
               aria-label="Siguiente"
@@ -120,7 +120,7 @@ export default function InventoryShowcase() {
             return (
               <div
                 key={horse.id}
-                className="w-[84vw] sm:w-[360px] lg:w-[380px] shrink-0 snap-start rounded-lg bg-[#1D1C1A] border border-[#34312C] hover:border-[#A8894F]/60 transition-all flex flex-col overflow-hidden shadow-lg group"
+                className="w-[84vw] sm:w-[360px] lg:w-[380px] shrink-0 snap-start rounded-lg bg-[#1D1C1A] border border-[#34312C] hover:border-[#D4AF37]/60 transition-all flex flex-col overflow-hidden shadow-lg group"
               >
                 {/* Visual con Badge y Foto */}
                 <div className="relative aspect-[4/3] w-full bg-black/60 overflow-hidden">
@@ -150,7 +150,7 @@ export default function InventoryShowcase() {
                 {/* Contenido de la Tarjeta */}
                 <div className="p-6 flex-1 flex flex-col justify-between">
                   <div>
-                    <span className="font-mono text-[11px] text-[#A8894F] uppercase tracking-wider block mb-1">
+                    <span className="font-mono text-[11px] text-[#D4AF37] uppercase tracking-wider block mb-1">
                       {horse.tag}
                     </span>
                     <h3 className="font-serif text-2xl sm:text-3xl font-semibold text-[#EFEAE1] mb-2">
@@ -174,7 +174,7 @@ export default function InventoryShowcase() {
                   <div className="pt-3 border-t border-[#34312C] flex flex-col gap-2.5">
                     <Link
                       href={`/caballos/${horse.slug}`}
-                      className="w-full py-3 px-4 rounded bg-transparent border border-[#34312C] hover:border-[#A8894F] text-[#EFEAE1] hover:text-[#A8894F] text-xs font-medium uppercase tracking-wider transition-colors flex items-center justify-center gap-2"
+                      className="w-full py-3 px-4 rounded bg-transparent border border-[#34312C] hover:border-[#D4AF37] text-[#EFEAE1] hover:text-[#D4AF37] text-xs font-medium uppercase tracking-wider transition-colors flex items-center justify-center gap-2"
                     >
                       <span>{t("catalog.viewMore")}</span>
                       <ArrowRight className="w-3.5 h-3.5" />
@@ -183,7 +183,7 @@ export default function InventoryShowcase() {
                     <button
                       type="button"
                       onClick={() => handleAskPrice(horse.name)}
-                      className="w-full py-3 px-4 rounded bg-[#A8894F] hover:bg-[#BFA063] text-[#141414] text-xs font-semibold uppercase tracking-wider transition-colors flex items-center justify-center gap-2 shadow-sm"
+                      className="w-full py-3 px-4 rounded bg-[#D4AF37] hover:bg-[#F5D061] text-[#141414] text-xs font-semibold uppercase tracking-wider transition-colors flex items-center justify-center gap-2 shadow-sm"
                     >
                       <MessageCircle className="w-3.5 h-3.5" />
                       <span>{t("catalog.askPrice")}</span>
@@ -205,7 +205,7 @@ export default function InventoryShowcase() {
         <div className="mt-16 p-8 rounded-lg bg-[#1D1C1A] border border-[#34312C] flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
             <h3 className="font-serif text-2xl font-semibold text-[#EFEAE1] mb-1">
-              ¿Busca algo específico? <i className="italic font-normal text-[#A8894F]">Podemos buscarlo.</i>
+              ¿Busca algo específico? <i className="italic font-normal text-[#D4AF37]">Podemos buscarlo.</i>
             </h3>
             <p className="font-sans text-xs sm:text-sm text-[#C9C2B5] max-w-xl">
               Díganos qué edad, alzada o disciplina busca, o regístrese para recibir un aviso una sola vez cuando llegue un ejemplar que coincida.
@@ -216,14 +216,14 @@ export default function InventoryShowcase() {
             <button
               type="button"
               onClick={handleCustomSearch}
-              className="px-5 py-3 rounded bg-[#A8894F] hover:bg-[#BFA063] text-[#141414] text-xs font-medium uppercase tracking-wider transition-colors text-center"
+              className="px-5 py-3 rounded bg-[#D4AF37] hover:bg-[#F5D061] text-[#141414] text-xs font-medium uppercase tracking-wider transition-colors text-center"
             >
               Dígame qué tiene en mente
             </button>
             <button
               type="button"
               onClick={handleNotifyNew}
-              className="px-5 py-3 rounded border border-[#34312C] hover:border-[#A8894F] text-[#EFEAE1] hover:text-[#A8894F] text-xs font-medium uppercase tracking-wider transition-colors text-center bg-[#141414]"
+              className="px-5 py-3 rounded border border-[#34312C] hover:border-[#D4AF37] text-[#EFEAE1] hover:text-[#D4AF37] text-xs font-medium uppercase tracking-wider transition-colors text-center bg-[#141414]"
             >
               Avíseme cuando llegue uno nuevo
             </button>

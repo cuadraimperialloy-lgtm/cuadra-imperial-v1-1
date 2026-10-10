@@ -13,12 +13,12 @@ export default function EntregaSection() {
         
         {/* Encabezado */}
         <div className="mb-14">
-          <span className="font-mono text-xs uppercase tracking-[0.2em] text-[#A8894F] mb-3 block">
+          <span className="font-mono text-xs uppercase tracking-[0.2em] text-[#D4AF37] mb-3 block">
             {t("delivery.eyebrow")}
           </span>
           <h2 className="font-serif text-3xl sm:text-5xl lg:text-[44px] text-[#EFEAE1] font-semibold mb-6">
             {t("delivery.title")}{" "}
-            <i className="italic font-serif font-normal text-[#A8894F]">
+            <i className="italic font-serif font-normal text-[#D4AF37]">
               {t("delivery.titleItalic")}
             </i>
           </h2>
@@ -35,12 +35,12 @@ export default function EntregaSection() {
           
           {/* Visual Placa de Latón Grabada (como en el PDF) */}
           <div className="lg:col-span-5">
-            <div className="p-8 sm:p-12 rounded-lg bg-[#1D1C1A] border-2 border-[#A8894F]/40 flex flex-col items-center justify-center text-center shadow-2xl relative overflow-hidden group">
-              <div className="absolute inset-0 bg-gradient-to-br from-[#A8894F]/10 via-transparent to-[#A8894F]/5 pointer-events-none" />
+            <div className="p-8 sm:p-12 rounded-lg bg-[#1D1C1A] border-2 border-[#D4AF37]/40 flex flex-col items-center justify-center text-center shadow-2xl relative overflow-hidden group">
+              <div className="absolute inset-0 bg-gradient-to-br from-[#D4AF37]/10 via-transparent to-[#D4AF37]/5 pointer-events-none" />
               
               {/* Placa Dorada */}
-              <div className="w-full max-w-xs py-8 px-6 rounded border-2 border-[#A8894F] bg-[#141414] shadow-inner text-[#EFEAE1] relative">
-                <span className="font-mono text-[9px] tracking-[0.25em] text-[#A8894F] uppercase block mb-1">
+              <div className="w-full max-w-xs py-8 px-6 rounded border-2 border-[#D4AF37] bg-[#141414] shadow-inner text-[#EFEAE1] relative">
+                <span className="font-mono text-[9px] tracking-[0.25em] text-[#D4AF37] uppercase block mb-1">
                   CUADRA IMPERIAL LOY
                 </span>
                 <span className="font-serif text-3xl sm:text-4xl font-bold tracking-[0.15em] text-[#EFEAE1] uppercase block my-2">
@@ -51,7 +51,7 @@ export default function EntregaSection() {
                 </span>
               </div>
 
-              <span className="font-mono text-[11px] text-[#A8894F] mt-4 block uppercase tracking-wider">
+              <span className="font-mono text-[11px] text-[#D4AF37] mt-4 block uppercase tracking-wider">
                 Placa de latón grabada · Carpeta de piel artesanal
               </span>
             </div>
@@ -62,7 +62,7 @@ export default function EntregaSection() {
             
             <div className="p-5 rounded-lg bg-[#1D1C1A] border border-[#34312C] flex flex-col justify-between">
               <div>
-                <span className="font-mono text-xs text-[#A8894F] block mb-2 font-semibold">01 · El Arribo</span>
+                <span className="font-mono text-xs text-[#D4AF37] block mb-2 font-semibold">01 · El Arribo</span>
                 <h3 className="font-serif text-lg font-semibold text-[#EFEAE1] mb-2">
                   Trenzado y presentado
                 </h3>
@@ -74,7 +74,7 @@ export default function EntregaSection() {
 
             <div className="p-5 rounded-lg bg-[#1D1C1A] border border-[#34312C] flex flex-col justify-between">
               <div>
-                <span className="font-mono text-xs text-[#A8894F] block mb-2 font-semibold">02 · Documentación</span>
+                <span className="font-mono text-xs text-[#D4AF37] block mb-2 font-semibold">02 · Documentación</span>
                 <h3 className="font-serif text-lg font-semibold text-[#EFEAE1] mb-2">
                   Carpeta de piel con papeles
                 </h3>
@@ -86,7 +86,7 @@ export default function EntregaSection() {
 
             <div className="p-5 rounded-lg bg-[#1D1C1A] border border-[#34312C] flex flex-col justify-between">
               <div>
-                <span className="font-mono text-xs text-[#A8894F] block mb-2 font-semibold">03 · La Primera Monta</span>
+                <span className="font-mono text-xs text-[#D4AF37] block mb-2 font-semibold">03 · La Primera Monta</span>
                 <h3 className="font-serif text-lg font-semibold text-[#EFEAE1] mb-2">
                   Estreno en su lienzo o pista
                 </h3>
@@ -98,7 +98,7 @@ export default function EntregaSection() {
 
             <div className="p-5 rounded-lg bg-[#1D1C1A] border border-[#34312C] flex flex-col justify-between">
               <div>
-                <span className="font-mono text-xs text-[#A8894F] block mb-2 font-semibold">04 · Postventa</span>
+                <span className="font-mono text-xs text-[#D4AF37] block mb-2 font-semibold">04 · Postventa</span>
                 <h3 className="font-serif text-lg font-semibold text-[#EFEAE1] mb-2">
                   Seguimiento con discreción
                 </h3>

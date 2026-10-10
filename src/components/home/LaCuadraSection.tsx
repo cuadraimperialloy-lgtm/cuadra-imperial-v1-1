@@ -19,12 +19,12 @@ export default function LaCuadraSection() {
         
         {/* Encabezado */}
         <div className="mb-14">
-          <span className="font-mono text-xs uppercase tracking-[0.2em] text-[#A8894F] mb-3 block">
+          <span className="font-mono text-xs uppercase tracking-[0.2em] text-[#D4AF37] mb-3 block">
             {t("stud.eyebrow")}
           </span>
           <h2 className="font-serif text-3xl sm:text-5xl lg:text-[44px] text-[#EFEAE1] font-semibold mb-6">
             {t("stud.title")}{" "}
-            <i className="italic font-serif font-normal text-[#A8894F]">
+            <i className="italic font-serif font-normal text-[#D4AF37]">
               {t("stud.titleItalic")}
             </i>
           </h2>
@@ -40,7 +40,7 @@ export default function LaCuadraSection() {
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
           {datos.map((d, i) => (
             <div key={i} className="p-5 rounded-lg bg-[#1D1C1A] border border-[#34312C] flex flex-col justify-between">
-              <span className="font-mono text-[10px] text-[#A8894F] uppercase tracking-wider block mb-2">
+              <span className="font-mono text-[10px] text-[#D4AF37] uppercase tracking-wider block mb-2">
                 {d.label}
               </span>
               <span className="font-serif text-lg sm:text-xl font-semibold text-[#EFEAE1]">
@@ -65,7 +65,7 @@ export default function LaCuadraSection() {
           </div>
 
           <div className="p-5 rounded bg-[#141414] border border-[#34312C] text-xs text-[#C9C2B5] font-sans leading-relaxed">
-            <strong className="text-[#A8894F] block mb-1 font-mono uppercase text-[11px]">
+            <strong className="text-[#D4AF37] block mb-1 font-mono uppercase text-[11px]">
               Zapotlanejo, Jalisco · A 38 minutos de Guadalajara
             </strong>
             Por discreción y seguridad, la ubicación exacta con mapa directo se le envía al coordinar su cita por WhatsApp. Las instalaciones son rentadas; los ejemplares son propiedad de Cuadra Imperial Loy.

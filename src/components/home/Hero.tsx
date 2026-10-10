@@ -52,14 +52,14 @@ export default function Hero() {
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center justify-center pt-16">
         
         {/* Eyebrow / Origen */}
-        <span className="font-mono text-[11px] sm:text-xs uppercase tracking-[0.25em] text-[#A8894F] mb-4 sm:mb-6 block drop-shadow-md">
+        <span className="font-mono text-[11px] sm:text-xs uppercase tracking-[0.25em] text-[#D4AF37] mb-4 sm:mb-6 block drop-shadow-md">
           {t("hero.eyebrow")}
         </span>
 
         {/* Headline: Dos golpes (Favier style) */}
         <h1 className="font-serif text-4xl sm:text-6xl md:text-7xl lg:text-[76px] leading-[1.05] text-[#EFEAE1] font-semibold mb-6 tracking-tight drop-shadow-lg">
           {t("hero.title")}{" "}
-          <i className="italic font-serif font-normal text-[#A8894F] block sm:inline">
+          <i className="italic font-serif font-normal text-[#D4AF37] block sm:inline">
             {t("hero.titleItalic")}
           </i>
         </h1>
@@ -70,7 +70,7 @@ export default function Hero() {
         </p>
 
         {/* Vocabulario de conocedor en una línea (PDF / Favier) */}
-        <div className="py-2.5 px-5 rounded-full bg-[#141414]/80 backdrop-blur-md border border-[#A8894F]/40 text-[11px] sm:text-xs font-mono text-[#A8894F] mb-10 flex flex-wrap items-center justify-center gap-x-3 gap-y-1 shadow-2xl">
+        <div className="py-2.5 px-5 rounded-full bg-[#141414]/80 backdrop-blur-md border border-[#D4AF37]/40 text-[11px] sm:text-xs font-mono text-[#D4AF37] mb-10 flex flex-wrap items-center justify-center gap-x-3 gap-y-1 shadow-2xl">
           <span>KFPS</span>
           <span className="text-[#9A958B]">•</span>
           <span>Pasaporte de Holanda</span>
@@ -87,7 +87,7 @@ export default function Hero() {
           <button
             type="button"
             onClick={scrollToHorses}
-            className="w-full sm:w-auto px-8 py-4 bg-[#A8894F] hover:bg-[#BFA063] text-[#141414] font-medium text-xs uppercase tracking-widest rounded transition-all duration-300 shadow-[0_4px_25px_rgba(168,137,79,0.3)] flex items-center justify-center gap-2"
+            className="w-full sm:w-auto px-8 py-4 bg-[#D4AF37] hover:bg-[#F5D061] text-[#141414] font-medium text-xs uppercase tracking-widest rounded transition-all duration-300 shadow-[0_4px_25px_rgba(168,137,79,0.3)] flex items-center justify-center gap-2"
           >
             <span>{t("hero.cta")}</span>
             <ArrowDown className="w-3.5 h-3.5" />
@@ -96,9 +96,9 @@ export default function Hero() {
           <button
             type="button"
             onClick={toggleAudio}
-            className="w-full sm:w-auto px-7 py-4 border border-[#A8894F]/60 hover:border-[#A8894F] bg-[#141414]/70 backdrop-blur-md text-[#EFEAE1] hover:text-[#A8894F] font-medium text-xs uppercase tracking-widest rounded transition-all flex items-center justify-center gap-2"
+            className="w-full sm:w-auto px-7 py-4 border border-[#D4AF37]/60 hover:border-[#D4AF37] bg-[#141414]/70 backdrop-blur-md text-[#EFEAE1] hover:text-[#D4AF37] font-medium text-xs uppercase tracking-widest rounded transition-all flex items-center justify-center gap-2"
           >
-            {isMuted ? <VolumeX className="w-4 h-4 text-[#A8894F]" /> : <Volume2 className="w-4 h-4 text-[#A8894F]" />}
+            {isMuted ? <VolumeX className="w-4 h-4 text-[#D4AF37]" /> : <Volume2 className="w-4 h-4 text-[#D4AF37]" />}
             <span>{isMuted ? t("hero.sound") : t("hero.mute")}</span>
           </button>
         </div>
@@ -110,7 +110,7 @@ export default function Hero() {
         <button
           type="button"
           onClick={toggleAudio}
-          className="p-2 rounded-full bg-[#1D1C1A] text-[#A8894F] hover:text-[#EFEAE1] transition-colors"
+          className="p-2 rounded-full bg-[#1D1C1A] text-[#D4AF37] hover:text-[#EFEAE1] transition-colors"
           title={isMuted ? "Activar sonido real" : "Silenciar"}
         >
           {isMuted ? <VolumeX className="w-4 h-4" /> : <Volume2 className="w-4 h-4" />}
@@ -130,7 +130,7 @@ export default function Hero() {
       {/* Scroll indicator icon */}
       <div className="absolute bottom-6 inset-x-0 z-20 flex justify-center pointer-events-none">
         <div className="w-5 h-8 rounded-full border border-white/30 flex items-start justify-center p-1">
-          <div className="w-1 h-2 rounded-full bg-[#A8894F] animate-bounce" />
+          <div className="w-1 h-2 rounded-full bg-[#D4AF37] animate-bounce" />
         </div>
       </div>
 

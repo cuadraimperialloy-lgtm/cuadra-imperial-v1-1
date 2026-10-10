@@ -235,7 +235,7 @@ export default function HorseDetailClient({ horse }: HorseDetailClientProps) {
         <div className="flex items-center justify-between py-4 mb-6 border-b border-[#34312C]">
           <Link
             href="/caballos"
-            className="inline-flex items-center gap-2 text-xs font-mono uppercase tracking-wider text-[#C9C2B5] hover:text-[#A8894F] transition-colors"
+            className="inline-flex items-center gap-2 text-xs font-mono uppercase tracking-wider text-[#C9C2B5] hover:text-[#D4AF37] transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
             <span>Todos los caballos</span>
@@ -246,7 +246,7 @@ export default function HorseDetailClient({ horse }: HorseDetailClientProps) {
               type="button"
               onClick={generateHorsePdf}
               disabled={isGeneratingPdf}
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded border border-[#A8894F]/60 bg-[#1D1C1A] text-xs font-mono text-[#A8894F] hover:bg-[#A8894F] hover:text-[#141414] transition-all"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded border border-[#D4AF37]/60 bg-[#1D1C1A] text-xs font-mono text-[#D4AF37] hover:bg-[#D4AF37] hover:text-[#141414] transition-all"
               title="Descargar Ficha en PDF"
             >
               <Download className="w-3.5 h-3.5" />
@@ -256,7 +256,7 @@ export default function HorseDetailClient({ horse }: HorseDetailClientProps) {
             <button
               type="button"
               onClick={handleShareToExpert}
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded border border-[#34312C] hover:border-[#A8894F] text-xs font-mono text-[#C9C2B5] hover:text-[#A8894F] transition-colors"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded border border-[#34312C] hover:border-[#D4AF37] text-xs font-mono text-[#C9C2B5] hover:text-[#D4AF37] transition-colors"
               title="Compartir con asesor"
             >
               <Share2 className="w-3.5 h-3.5" />
@@ -268,7 +268,7 @@ export default function HorseDetailClient({ horse }: HorseDetailClientProps) {
         {/* Encabezado del Caballo */}
         <div className="mb-8">
           <div className="flex flex-wrap items-center gap-3 mb-2">
-            <span className="font-mono text-xs uppercase tracking-widest text-[#A8894F] font-semibold">
+            <span className="font-mono text-xs uppercase tracking-widest text-[#D4AF37] font-semibold">
               {horse.tag}
             </span>
             <span
@@ -315,7 +315,7 @@ export default function HorseDetailClient({ horse }: HorseDetailClientProps) {
                   type="button"
                   onClick={() => setActivePhoto(idx)}
                   className={`relative aspect-[4/3] rounded overflow-hidden border transition-all ${
-                    activePhoto === idx ? "border-[#A8894F] scale-95" : "border-[#34312C] opacity-75 hover:opacity-100"
+                    activePhoto === idx ? "border-[#D4AF37] scale-95" : "border-[#34312C] opacity-75 hover:opacity-100"
                   }`}
                 >
                   <Image src={img} alt={`${horse.name} foto ${idx + 1}`} fill className="object-cover" />
@@ -326,7 +326,7 @@ export default function HorseDetailClient({ horse }: HorseDetailClientProps) {
             {/* Video sin cortes y con sonido real */}
             <div className="p-4 rounded-lg bg-[#1D1C1A] border border-[#34312C] mt-2">
               <div className="flex items-center justify-between mb-2">
-                <span className="font-mono text-xs uppercase tracking-wider text-[#A8894F] flex items-center gap-1.5">
+                <span className="font-mono text-xs uppercase tracking-wider text-[#D4AF37] flex items-center gap-1.5">
                   <Volume2 className="w-3.5 h-3.5" />
                   Video completo sin cortes
                 </span>
@@ -347,7 +347,7 @@ export default function HorseDetailClient({ horse }: HorseDetailClientProps) {
             <div className="space-y-6">
               
               <div className="p-5 rounded-lg bg-[#1D1C1A] border border-[#34312C]">
-                <h2 className="font-mono text-xs uppercase tracking-widest text-[#A8894F] mb-4 font-semibold">
+                <h2 className="font-mono text-xs uppercase tracking-widest text-[#D4AF37] mb-4 font-semibold">
                   Ficha Técnica
                 </h2>
                 <div className="grid grid-cols-2 gap-y-3 gap-x-4 text-xs font-sans">
@@ -386,14 +386,14 @@ export default function HorseDetailClient({ horse }: HorseDetailClientProps) {
                 <p className="font-sans text-xs sm:text-sm text-[#C9C2B5] leading-relaxed mb-3">
                   {horse.stableNotes}
                 </p>
-                <span className="font-mono text-[11px] text-[#A8894F] block">
+                <span className="font-mono text-[11px] text-[#D4AF37] block">
                   Notas de la cuadra · Víctor Hernández, caballerango
                 </span>
               </div>
 
               {/* Lo que le falta */}
-              <div className="p-5 rounded-lg bg-[#1D1C1A] border-l-4 border-l-[#A8894F] border border-[#34312C]">
-                <div className="flex items-center gap-2 mb-1.5 text-[#A8894F]">
+              <div className="p-5 rounded-lg bg-[#1D1C1A] border-l-4 border-l-[#D4AF37] border border-[#34312C]">
+                <div className="flex items-center gap-2 mb-1.5 text-[#D4AF37]">
                   <AlertCircle className="w-4 h-4" />
                   <h3 className="font-mono text-xs uppercase tracking-wider font-semibold">
                     Lo que le falta
@@ -412,7 +412,7 @@ export default function HorseDetailClient({ horse }: HorseDetailClientProps) {
                 <button
                   type="button"
                   onClick={handleShareToExpert}
-                  className="w-full py-4 px-4 rounded bg-[#A8894F] hover:bg-[#BFA063] text-[#141414] text-xs font-bold uppercase tracking-widest transition-all flex items-center justify-center gap-2 shadow-lg"
+                  className="w-full py-4 px-4 rounded bg-[#D4AF37] hover:bg-[#F5D061] text-[#141414] text-xs font-bold uppercase tracking-widest transition-all flex items-center justify-center gap-2 shadow-lg"
                 >
                   <MessageCircle className="w-4 h-4" />
                   <span>Comprar / Compartir Ficha por WhatsApp</span>
@@ -423,7 +423,7 @@ export default function HorseDetailClient({ horse }: HorseDetailClientProps) {
                     type="button"
                     onClick={generateHorsePdf}
                     disabled={isGeneratingPdf}
-                    className="py-3 px-3 rounded border border-[#A8894F]/60 bg-[#1D1C1A] hover:bg-[#A8894F] hover:text-[#141414] text-[#EFEAE1] text-xs font-mono uppercase tracking-wider transition-colors flex items-center justify-center gap-1.5"
+                    className="py-3 px-3 rounded border border-[#D4AF37]/60 bg-[#1D1C1A] hover:bg-[#D4AF37] hover:text-[#141414] text-[#EFEAE1] text-xs font-mono uppercase tracking-wider transition-colors flex items-center justify-center gap-1.5"
                   >
                     <Download className="w-3.5 h-3.5" />
                     <span>{isGeneratingPdf ? "Generando..." : "Descargar PDF"}</span>
@@ -432,9 +432,9 @@ export default function HorseDetailClient({ horse }: HorseDetailClientProps) {
                   <button
                     type="button"
                     onClick={scrollToVisita}
-                    className="py-3 px-3 rounded border border-[#34312C] hover:border-[#A8894F] text-[#EFEAE1] text-xs font-mono uppercase tracking-wider transition-colors flex items-center justify-center gap-1.5 bg-[#141414]"
+                    className="py-3 px-3 rounded border border-[#34312C] hover:border-[#D4AF37] text-[#EFEAE1] text-xs font-mono uppercase tracking-wider transition-colors flex items-center justify-center gap-1.5 bg-[#141414]"
                   >
-                    <Calendar className="w-3.5 h-3.5 text-[#A8894F]" />
+                    <Calendar className="w-3.5 h-3.5 text-[#D4AF37]" />
                     <span>Agendar Visita</span>
                   </button>
                 </div>
@@ -451,7 +451,7 @@ export default function HorseDetailClient({ horse }: HorseDetailClientProps) {
 
         {/* Sección: Sus papeles · KFPS */}
         <div className="mb-16 p-6 sm:p-10 rounded-lg bg-[#1D1C1A] border border-[#34312C]">
-          <span className="font-mono text-xs uppercase tracking-widest text-[#A8894F] block mb-2 font-semibold">
+          <span className="font-mono text-xs uppercase tracking-widest text-[#D4AF37] block mb-2 font-semibold">
             Sus papeles · KFPS
           </span>
           <h2 className="font-serif text-3xl font-semibold text-[#EFEAE1] mb-2">
@@ -466,10 +466,10 @@ export default function HorseDetailClient({ horse }: HorseDetailClientProps) {
               <span className="font-mono text-[10px] text-[#9A958B] uppercase block mb-1">Libro de Registro</span>
               <strong className="text-sm text-[#EFEAE1] font-mono block mb-1">{horse.registration.book}</strong>
               {horse.registration.number && (
-                <span className="text-[11px] font-mono text-[#A8894F] block mb-2">Registro: {horse.registration.number}</span>
+                <span className="text-[11px] font-mono text-[#D4AF37] block mb-2">Registro: {horse.registration.number}</span>
               )}
               <div className="pt-2 border-t border-[#34312C]/60">
-                <span className="font-mono text-[10px] text-[#A8894F] block mb-0.5">¿Qué significa?</span>
+                <span className="font-mono text-[10px] text-[#D4AF37] block mb-0.5">¿Qué significa?</span>
                 <p className="font-sans text-xs text-[#C9C2B5] leading-relaxed">{horse.registration.meaning}</p>
               </div>
             </div>
@@ -479,7 +479,7 @@ export default function HorseDetailClient({ horse }: HorseDetailClientProps) {
                 <span className="font-mono text-[10px] text-[#9A958B] uppercase block mb-1">Calificación KFPS</span>
                 <strong className="text-sm text-[#EFEAE1] block mb-2">{horse.kfpsAward.title}</strong>
                 <div className="pt-2 border-t border-[#34312C]/60">
-                  <span className="font-mono text-[10px] text-[#A8894F] block mb-0.5">¿Qué significa?</span>
+                  <span className="font-mono text-[10px] text-[#D4AF37] block mb-0.5">¿Qué significa?</span>
                   <p className="font-sans text-xs text-[#C9C2B5] leading-relaxed">{horse.kfpsAward.meaning}</p>
                 </div>
               </div>
@@ -497,12 +497,12 @@ export default function HorseDetailClient({ horse }: HorseDetailClientProps) {
               <span className="font-mono text-[10px] text-[#9A958B] uppercase block mb-1">Microchip</span>
               <strong className="text-sm text-[#EFEAE1] block mb-2">Verificación de identidad</strong>
               <p className="font-sans text-xs text-[#C9C2B5] leading-relaxed mb-2">{horse.chip}</p>
-              <span className="font-mono text-[10px] text-[#A8894F] block">Disponemos de lector en la cuadra</span>
+              <span className="font-mono text-[10px] text-[#D4AF37] block">Disponemos de lector en la cuadra</span>
             </div>
           </div>
 
           <div className="mt-8 pt-6 border-t border-[#34312C]">
-            <h3 className="font-mono text-xs uppercase tracking-wider text-[#A8894F] mb-4 font-semibold">
+            <h3 className="font-mono text-xs uppercase tracking-wider text-[#D4AF37] mb-4 font-semibold">
               Genealogía (pedigrí)
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs">
@@ -531,11 +531,11 @@ export default function HorseDetailClient({ horse }: HorseDetailClientProps) {
         {/* Otros caballos */}
         {otherHorses.length > 0 && (
           <div className="mt-20 pt-16 border-t border-[#34312C]">
-            <span className="font-mono text-xs uppercase tracking-widest text-[#A8894F] block mb-2">
+            <span className="font-mono text-xs uppercase tracking-widest text-[#D4AF37] block mb-2">
               Caballos frisones en venta
             </span>
             <h2 className="font-serif text-3xl font-semibold text-[#EFEAE1] mb-8">
-              Otros caballos de <i className="italic font-serif font-normal text-[#A8894F]">la cuadra.</i>
+              Otros caballos de <i className="italic font-serif font-normal text-[#D4AF37]">la cuadra.</i>
             </h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -545,14 +545,14 @@ export default function HorseDetailClient({ horse }: HorseDetailClientProps) {
                     <div className="relative aspect-[4/3] rounded overflow-hidden mb-3 bg-black/60">
                       <Image src={other.images[0]} alt={other.name} fill className="object-cover" />
                     </div>
-                    <span className="font-mono text-[11px] text-[#A8894F] block mb-1">{other.tag}</span>
+                    <span className="font-mono text-[11px] text-[#D4AF37] block mb-1">{other.tag}</span>
                     <h3 className="font-serif text-xl font-semibold text-[#EFEAE1] mb-1">{other.name}</h3>
                     <p className="font-mono text-xs text-[#9A958B] mb-2">{other.age} · {other.height}</p>
                     <p className="font-sans text-xs text-[#C9C2B5] line-clamp-2 mb-4">{other.stableNotes}</p>
                   </div>
                   <Link
                     href={`/caballos/${other.slug}`}
-                    className="w-full py-2 px-3 rounded text-center border border-[#34312C] hover:border-[#A8894F] text-xs font-mono text-[#EFEAE1] hover:text-[#A8894F] transition-colors"
+                    className="w-full py-2 px-3 rounded text-center border border-[#34312C] hover:border-[#D4AF37] text-xs font-mono text-[#EFEAE1] hover:text-[#D4AF37] transition-colors"
                   >
                     Conocer a {other.name} →
                   </Link>
@@ -569,7 +569,7 @@ export default function HorseDetailClient({ horse }: HorseDetailClientProps) {
         <button
           type="button"
           onClick={handleShareToExpert}
-          className="flex-1 py-3 px-3 rounded bg-[#A8894F] text-[#141414] font-bold text-xs uppercase tracking-wider text-center"
+          className="flex-1 py-3 px-3 rounded bg-[#D4AF37] text-[#141414] font-bold text-xs uppercase tracking-wider text-center"
         >
           Comprar / WhatsApp
         </button>

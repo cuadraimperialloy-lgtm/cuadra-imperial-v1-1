@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import Preloader from "@/components/ui/Preloader";
+import WhatsAppButton from "@/components/layout/WhatsAppButton";
 import { LocaleProvider } from "@/context/LocaleContext";
 
 const cormorant = Cormorant_Garamond({ 
@@ -39,13 +40,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       lang="es"
       className={`${plexSans.variable} ${cormorant.variable} ${plexMono.variable} h-full antialiased scroll-smooth`}
     >
-      <body className="min-h-full flex flex-col bg-[#141414] text-[#EFEAE1] selection:bg-[#A8894F]/30 selection:text-white font-sans">
+      <body className="min-h-full flex flex-col bg-[#141414] text-[#EFEAE1] selection:bg-[#D4AF37]/30 selection:text-white font-sans">
         <LocaleProvider>
           <Preloader />
           <Navbar />
           <main className="flex-1">
             {children}
           </main>
+          <WhatsAppButton />
           <Footer />
         </LocaleProvider>
       </body>

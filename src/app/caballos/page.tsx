@@ -61,7 +61,7 @@ export default function CaballosCatalogPage() {
         <div className="mb-10 pb-8 border-b border-[#34312C]">
           <Link
             href="/"
-            className="inline-flex items-center gap-2 text-xs font-mono uppercase tracking-wider text-[#9A958B] hover:text-[#A8894F] transition-colors mb-4"
+            className="inline-flex items-center gap-2 text-xs font-mono uppercase tracking-wider text-[#9A958B] hover:text-[#D4AF37] transition-colors mb-4"
           >
             <ArrowLeft className="w-4 h-4" />
             <span>Volver al inicio</span>
@@ -69,7 +69,7 @@ export default function CaballosCatalogPage() {
 
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
             <div>
-              <span className="font-mono text-xs uppercase tracking-[0.2em] text-[#A8894F] mb-2 block">
+              <span className="font-mono text-xs uppercase tracking-[0.2em] text-[#D4AF37] mb-2 block">
                 Catálogo Oficial KFPS · Jalisco
               </span>
               <h1 className="font-serif text-3xl sm:text-5xl font-semibold text-[#EFEAE1]">
@@ -93,7 +93,7 @@ export default function CaballosCatalogPage() {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Buscar por nombre, nivel o características..."
-              className="w-full bg-[#141414] border border-[#34312C] focus:border-[#A8894F] rounded pl-10 pr-4 py-2.5 text-xs text-[#EFEAE1] focus:outline-none transition-colors font-sans"
+              className="w-full bg-[#141414] border border-[#34312C] focus:border-[#D4AF37] rounded pl-10 pr-4 py-2.5 text-xs text-[#EFEAE1] focus:outline-none transition-colors font-sans"
             />
           </div>
 
@@ -104,7 +104,7 @@ export default function CaballosCatalogPage() {
               <select
                 value={selectedLevel}
                 onChange={(e) => setSelectedLevel(e.target.value)}
-                className="bg-[#141414] border border-[#34312C] rounded px-3 py-1.5 text-xs text-[#EFEAE1] focus:outline-none focus:border-[#A8894F]"
+                className="bg-[#141414] border border-[#34312C] rounded px-3 py-1.5 text-xs text-[#EFEAE1] focus:outline-none focus:border-[#D4AF37]"
               >
                 <option value="TODOS">Todos los niveles</option>
                 <option value="Bailador">Bailador</option>
@@ -118,7 +118,7 @@ export default function CaballosCatalogPage() {
               <select
                 value={selectedGender}
                 onChange={(e) => setSelectedGender(e.target.value)}
-                className="bg-[#141414] border border-[#34312C] rounded px-3 py-1.5 text-xs text-[#EFEAE1] focus:outline-none focus:border-[#A8894F]"
+                className="bg-[#141414] border border-[#34312C] rounded px-3 py-1.5 text-xs text-[#EFEAE1] focus:outline-none focus:border-[#D4AF37]"
               >
                 <option value="TODOS">Todos</option>
                 <option value="Entero">Entero</option>
@@ -131,7 +131,7 @@ export default function CaballosCatalogPage() {
               <select
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value as any)}
-                className="bg-[#141414] border border-[#34312C] rounded px-3 py-1.5 text-xs text-[#EFEAE1] focus:outline-none focus:border-[#A8894F]"
+                className="bg-[#141414] border border-[#34312C] rounded px-3 py-1.5 text-xs text-[#EFEAE1] focus:outline-none focus:border-[#D4AF37]"
               >
                 <option value="defecto">Recomendados</option>
                 <option value="edad">Mayor a menor edad</option>
@@ -143,7 +143,7 @@ export default function CaballosCatalogPage() {
               <button
                 type="button"
                 onClick={resetFilters}
-                className="p-2 rounded border border-[#34312C] text-[#9A958B] hover:text-[#A8894F] transition-colors"
+                className="p-2 rounded border border-[#34312C] text-[#9A958B] hover:text-[#D4AF37] transition-colors"
                 title="Limpiar filtros"
               >
                 <RotateCcw className="w-3.5 h-3.5" />
@@ -160,7 +160,7 @@ export default function CaballosCatalogPage() {
             <p className="font-sans text-xs text-[#9A958B] mb-4">Pruebe limpiando los filtros para ver el catálogo completo.</p>
             <button
               onClick={resetFilters}
-              className="px-4 py-2 rounded bg-[#A8894F] text-[#141414] text-xs font-bold uppercase tracking-wider"
+              className="px-4 py-2 rounded bg-[#D4AF37] text-[#141414] text-xs font-bold uppercase tracking-wider"
             >
               Ver todos los ejemplares
             </button>
@@ -172,7 +172,7 @@ export default function CaballosCatalogPage() {
               return (
                 <div
                   key={horse.id}
-                  className="rounded-lg bg-[#1D1C1A] border border-[#34312C] hover:border-[#A8894F]/60 transition-all flex flex-col overflow-hidden shadow-sm group"
+                  className="rounded-lg bg-[#1D1C1A] border border-[#34312C] hover:border-[#D4AF37]/60 transition-all flex flex-col overflow-hidden shadow-sm group"
                 >
                   {/* Foto de Producto con Efecto Hover */}
                   <Link href={`/caballos/${horse.slug}`} className="relative aspect-[4/3] w-full bg-black/60 overflow-hidden block">
@@ -202,10 +202,10 @@ export default function CaballosCatalogPage() {
                   {/* Ficha de Producto */}
                   <div className="p-5 flex-1 flex flex-col justify-between">
                     <div>
-                      <span className="font-mono text-[11px] text-[#A8894F] uppercase tracking-wider block mb-1">
+                      <span className="font-mono text-[11px] text-[#D4AF37] uppercase tracking-wider block mb-1">
                         {horse.tag}
                       </span>
-                      <h2 className="font-serif text-2xl font-semibold text-[#EFEAE1] mb-2 group-hover:text-[#A8894F] transition-colors">
+                      <h2 className="font-serif text-2xl font-semibold text-[#EFEAE1] mb-2 group-hover:text-[#D4AF37] transition-colors">
                         <Link href={`/caballos/${horse.slug}`}>{horse.name}</Link>
                       </h2>
 
@@ -225,7 +225,7 @@ export default function CaballosCatalogPage() {
                     <div className="pt-3 border-t border-[#34312C] flex flex-col gap-2">
                       <Link
                         href={`/caballos/${horse.slug}`}
-                        className="w-full py-2.5 px-3 rounded bg-transparent border border-[#34312C] hover:border-[#A8894F] text-[#EFEAE1] hover:text-[#A8894F] text-xs font-medium uppercase tracking-wider transition-colors flex items-center justify-center gap-1.5"
+                        className="w-full py-2.5 px-3 rounded bg-transparent border border-[#34312C] hover:border-[#D4AF37] text-[#EFEAE1] hover:text-[#D4AF37] text-xs font-medium uppercase tracking-wider transition-colors flex items-center justify-center gap-1.5"
                       >
                         <span>Ver ficha de producto</span>
                         <ArrowRight className="w-3.5 h-3.5" />
@@ -234,7 +234,7 @@ export default function CaballosCatalogPage() {
                       <button
                         type="button"
                         onClick={() => handleAskPrice(horse.name)}
-                        className="w-full py-2.5 px-3 rounded bg-[#A8894F] hover:bg-[#BFA063] text-[#141414] text-xs font-medium uppercase tracking-wider transition-colors flex items-center justify-center gap-1.5"
+                        className="w-full py-2.5 px-3 rounded bg-[#D4AF37] hover:bg-[#F5D061] text-[#141414] text-xs font-medium uppercase tracking-wider transition-colors flex items-center justify-center gap-1.5"
                       >
                         <MessageCircle className="w-3.5 h-3.5" />
                         <span>Pedir precio por WhatsApp</span>

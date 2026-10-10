@@ -26,7 +26,7 @@ export default function CallToAction() {
           </span>
           <h2 className="font-heading text-5xl md:text-7xl lg:text-[90px] text-brand-cal font-semibold tracking-tight leading-[1.1] mb-8">
             Comienza tu <br/>
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#DFB967] to-[#C29B4F]">Legado Imperial.</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F5D061] to-[#F5D061]">Legado Imperial.</span>
           </h2>
           <p className="font-sans text-brand-cal/70 text-lg md:text-xl font-medium max-w-2xl mx-auto mb-16">
             Agenda una cita privada en nuestras instalaciones o solicita el catálogo completo de ejemplares disponibles en los Países Bajos.
