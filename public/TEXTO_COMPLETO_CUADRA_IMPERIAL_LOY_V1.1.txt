@@ -1,0 +1,397 @@
+================================================================================
+                    CUADRA IMPERIAL LOY · VERSIÓN 1.1
+               TEXTO COMPLETO DEL SITIO WEB OFICIAL
+================================================================================
+
+DATOS GENERALES DE LA CUADRA:
+- Nombre: Cuadra Imperial Loy
+- Sede: Zapotlanejo, Jalisco, México (A 38 minutos de Guadalajara)
+- Teléfono de atención oficial / WhatsApp: +52 33 1702 6066
+- Alcance de entrega: República Mexicana y Estados Unidos
+- Origen de los ejemplares: Importados de Países Bajos (Holanda) con registro oficial KFPS
+- URL pública de producción: https://frontend-pi-livid-92.vercel.app
+
+
+================================================================================
+1. BARRA DE NAVEGACIÓN Y ENCABEZADO (NAVBAR)
+================================================================================
+- Logotipo oficial: Escudo heráldico en Oro Brillante 24K de Cuadra Imperial Loy
+- Enlaces del menú:
+  * Caballos en venta (/#caballos)
+  * Visita (/#visita)
+  * Garantía (/#garantia)
+  * La cuadra (/#la-cuadra)
+- Banderas y Presencia Internacional:
+  * México (Sede Jalisco)
+  * Estados Unidos (Entrega con protocolo y cuarentena)
+  * Países Bajos / Holanda (Origen de los ejemplares KFPS)
+- Selectores interactivos:
+  * Moneda: MXN / USD
+  * Idioma: Español (ES) / English (EN)
+- Botón Flotante Permanente:
+  * Ícono de WhatsApp con efecto shimmer y pulso en Oro Brillante
+  * Tooltip: "Atención por WhatsApp"
+  * Enlace: https://wa.me/523317026066 con mensaje precargado.
+
+
+================================================================================
+2. PORTADA EDITORIAL / HERO (FULL SCREEN)
+================================================================================
+[Inspirado en la dirección de arte y minimalismo editorial de Ganadería Favier]
+
+- Antetítulo (Eyebrow):
+  Zapotlanejo · Jalisco · Importados de Holanda
+
+- Título Principal (H1):
+  Caballos frisones de Holanda. En Jalisco.
+
+- Subtítulo:
+  Caballos frisones en venta, importados de Holanda. Con pasaporte y papeles que pasan a su nombre.
+
+- Botón de Llamado a la Acción (CTA):
+  [CONOZCA LOS CABALLOS] -> Desplaza suavemente al catálogo
+
+- Control de Audio Ambiental:
+  Sonido ambiental real de cascos y relincho grabado en picadero con opción de activación y silencio.
+
+
+================================================================================
+3. CATÁLOGO DE CABALLOS FRISONES EN VENTA (INVENTARIO SHOWCASE)
+================================================================================
+- Antetítulo:
+  Caballos frisones en venta
+
+- Título:
+  Los caballos de la cuadra.
+
+- Subtítulo:
+  Catálogo de Sementales y Yeguas KFPS: Desliza para explorar cada ejemplar. Pulsa en "Ver más" para conocer su ficha y precio.
+
+--------------------------------------------------------------------------------
+EJEMPLAR 1: TJERK
+--------------------------------------------------------------------------------
+- Nombre: Tjerk
+- Nivel de formación: Bailador y cabalgata
+- Edad: 5 años
+- Alzada: 1.70 m a la cruz
+- Capa: Negra pura
+- Uso ideal: Baile, cabalgatas de gala y eventos especiales
+- Estado: Disponible
+- Frase distintiva: "Así levanta las manos. Escúchelo."
+- Descripción:
+  Caballo frisón importado de Holanda. Con pasaporte y papeles que pasan a su nombre. Trabajo enfocado en elevación de manos, paso cadenciado y baile.
+- Registro KFPS:
+  * Libro: Veulenboek de la KFPS
+  * Número de registro: 528004 2021 00894
+  * Significado del libro: Es parte del libro principal de la KFPS: ahí se inscribe a los potros cuyos padres cumplen sus requisitos. Los machos enteros se quedan en él toda su vida.
+- Premio de inspección KFPS:
+  * Premio: 2º Premio (Tweede Premie)
+  * Detalle: Otorgado por inspectores holandeses oficiales de la KFPS por su conformación ósea y trote cadenciado sobre pista dura.
+- Árbol Genealógico:
+  * Padre (Sire): Jehannes 484 Sport Elite
+  * Madre (Dam): Brechtje van de Zomerhof (Ster)
+  * Abuelo materno: Norbert 444 Sport Preferent
+- Notas de la cuadra:
+  Trabaja con franqueza bajo la montura y levanta con fuerza las manos al bailar. Acostumbrado al ruido, a la gente cerca y a la música.
+- Lo que le falta (Transparencia Total):
+  Le falta templarse más cuando hay yeguas en celo trabajando a la par en la pista.
+- Documentos que se entregan:
+  Pasaporte oficial de la KFPS y certificado de registro holandés que pasan a su nombre.
+- Acciones disponibles:
+  [Ver ficha completa] | [Pedir precio por WhatsApp] | [Descargar Ficha Técnica en PDF]
+
+--------------------------------------------------------------------------------
+EJEMPLAR 2: WILLEM
+--------------------------------------------------------------------------------
+- Nombre: Willem
+- Nivel de formación: Semental montado de alta escuela
+- Edad: 6 años
+- Alzada: 1.72 m a la cruz
+- Capa: Negra azabache
+- Uso ideal: Alta escuela, rienda clásica, exhibición y semental
+- Estado: Disponible
+- Frase distintiva: "Línea superior amplia y trote suspendido."
+- Descripción:
+  Semental frisón de gran presencia y alzada imponente. Importado de Frisia, Holanda. Excelente temperamento de trabajo, movimientos amplios y porte señorial.
+- Registro KFPS:
+  * Libro: Veulenboek de la KFPS
+  * Número de registro: 528004 2020 01102
+  * Significado del libro: Registro directo del libro de cría oficial holandés con genealogía trazable por generaciones.
+- Premio de inspección KFPS:
+  * Premio: 1º Premio (Eerste Premie)
+  * Detalle: Máxima calificación morfológica otorgada por la KFPS en los Países Bajos. Excelente tipo racial y calidad de aplomos.
+- Árbol Genealógico:
+  * Padre (Sire): Alwin 469 Sport Preferent
+  * Madre (Dam): Femke fan 'e Alde Dyk (Ster Preferent)
+  * Abuelo materno: Tsjalke 397
+- Notas de la cuadra:
+  Paso largo y buen braceo. Responde suave a la pierna y a la rienda. Acostumbrado a sesiones de trabajo diario.
+- Lo que le falta (Transparencia Total):
+  Requiere jinete con asiento firme y mano suave para mantener la reunión en los cambios de mano.
+- Documentos que se entregan:
+  Pasaporte y papeles de Holanda, que pasan a su nombre.
+- Acciones disponibles:
+  [Ver ficha completa] | [Pedir precio por WhatsApp] | [Descargar Ficha Técnica en PDF]
+
+--------------------------------------------------------------------------------
+EJEMPLAR 3: KASPER
+--------------------------------------------------------------------------------
+- Nombre: Kasper
+- Nivel de formación: Caballo montado para paseo y familia
+- Edad: 7 años
+- Alzada: 1.68 m a la cruz
+- Capa: Negra limpia
+- Uso ideal: Paseo campestre, cabalgata familiar y disfrute en el rancho
+- Estado: Disponible
+- Frase distintiva: "Nobleza comprobada para toda la familia."
+- Descripción:
+  Caballo sumamente noble, confiable y sereno. Importado de Holanda con pasaporte KFPS. Ideal para quienes buscan disfrutar sin sobresaltos ni complicaciones de manejo.
+- Registro KFPS:
+  * Libro: Veulenboek de la KFPS
+  * Número de registro: 528004 2019 03418
+  * Significado del libro: Inscripción formal en el libro holandés de origen con chip verificado.
+- Premio de inspección KFPS:
+  * Premio: 2º Premio (Tweede Premie)
+  * Detalle: Calificado favorablemente en Holanda por su balance general y carácter dócil.
+- Árbol Genealógico:
+  * Padre (Sire): Bartele 472 Sport
+  * Madre (Dam): Lieke van de Bosrand (Ster)
+  * Abuelo materno: Beart 411 Sport Preferent
+- Notas de la cuadra:
+  Caballo noble y firme de tranco. Muy seguro para jinetes de cualquier nivel y para convivir en familia en el rancho.
+- Lo que le falta (Transparencia Total):
+  No tiene la elevación exagerada de un bailador de concurso; es un caballo para montar a gusto y con tranquilidad.
+- Documentos que se entregan:
+  Pasaporte y papeles de Holanda, que pasan a su nombre.
+- Acciones disponibles:
+  [Ver ficha completa] | [Pedir precio por WhatsApp] | [Descargar Ficha Técnica en PDF]
+
+--------------------------------------------------------------------------------
+EJEMPLAR 4: FEDDE
+--------------------------------------------------------------------------------
+- Nombre: Fedde
+- Nivel de formación: Potro joven KFPS por formar
+- Edad: 3 años
+- Alzada: 1.66 m a la cruz (en desarrollo)
+- Capa: Negra carbón
+- Uso ideal: Proyecto de formación a gusto del nuevo propietario
+- Estado: Disponible
+- Frase distintiva: "Crin abundante y sangre de campeones."
+- Descripción:
+  Potro joven con gran futuro importado de Holanda. Hijo de semental aprobado de alta demanda. Se entrega con papeles holandeses y listo para iniciar su adiestramiento.
+- Registro KFPS:
+  * Libro: Veulenboek de la KFPS
+  * Número de registro: 528004 2023 00412
+  * Significado del libro: Potro registrado en el libro de cría de la KFPS con derecho a inspecciones futuras.
+- Premio de inspección KFPS:
+  * Premio: 1º Premio como Potro (Veulenpremie)
+  * Detalle: Cinta naranja de primer premio como potro en los Países Bajos por su estampa y movimiento elástico.
+- Árbol Genealógico:
+  * Padre (Sire): Tymen 503
+  * Madre (Dam): Ymkje fan 'e Syl (Ster)
+  * Abuelo materno: Uldrik 457
+- Notas de la cuadra:
+  Trabajado a la cuerda y cabestreo pie a tierra. Muy despierto y receptivo al manejo diario. Todavía no se monta.
+- Lo que le falta (Transparencia Total):
+  Aún no tiene edad ni madurez ósea para montarlo con peso completo; requiere paciencia y trabajo pie a tierra antes de subirlo.
+- Documentos que se entregan:
+  Pasaporte y papeles de Holanda, que pasan a su nombre.
+- Acciones disponibles:
+  [Ver ficha completa] | [Pedir precio por WhatsApp] | [Descargar Ficha Técnica en PDF]
+
+
+================================================================================
+4. GARANTÍA CONTRACTUAL OFICIAL
+================================================================================
+- Antetítulo:
+  Garantía
+
+- Título:
+  Su nombre, en los papeles de su caballo.
+
+- Frase Contractual (Cláusula Central):
+  "El contrato garantiza: pasaporte y papeles de Holanda, que pasan a su nombre, y salud al entregar."
+
+- Subtexto:
+  Antes de cualquier apartado, usted ve el pasaporte original. No pedimos confianza a ciegas: mostramos los documentos en mano y le damos el tiempo que necesite para consultar con su gente.
+
+- Los 3 Pilares Verificables:
+  1. PAPELES DE HOLANDA A SU NOMBRE:
+     Pasaporte y certificado de registro oficial de la KFPS emitidos en Holanda. El trámite se realiza formalmente para que los documentos queden a nombre del comprador. (Originales en mano).
+  2. SALUD AL ENTREGAR:
+     El caballo se entrega sano. Su médico veterinario es bienvenido a revisarlo en la fecha que usted proponga antes de cerrar la compra. (Revisión previa abierta).
+  3. CONTRATO POR ESCRITO:
+     Lo acordado se cumple y queda por escrito con lo que incluye y lo que no. Nada queda en palabras ni suposiciones. (Certeza legal).
+
+
+================================================================================
+5. LA CUADRA (INSTALACIONES Y EQUIPO)
+================================================================================
+- Antetítulo:
+  La cuadra
+
+- Título:
+  Trato directo con la cuadra.
+
+- Datos Clave:
+  * Ubicación: Zapotlanejo, Jalisco
+  * Distancia: A 38 minutos de Guadalajara
+  * Visitas: Exclusivamente con cita previa
+  * Caballerango: Víctor Hernández
+
+- Descripción de la Cuadra:
+  * Víctor Hernández · Caballerango de la cuadra:
+    Presenta y trabaja los caballos en el picadero y prepara con la cuadra las notas de cada ficha. Su oficio y constancia garantizan que el caballo se presente tal cual es, sin trucos ni maquillaje.
+  * Zapotlanejo, Jalisco · A 38 minutos de Guadalajara:
+    Visitas privadas con atención personalizada previa cita en la cuadra.
+
+
+================================================================================
+6. CEREMONIA DE ENTREGA
+================================================================================
+- Antetítulo:
+  La entrega
+
+- Título:
+  El día que llega a su rancho.
+
+- Descripción Central:
+  Trenzado y presentado. En una carpeta de piel, su pasaporte y sus papeles originales. Una placa de latón con el nombre del caballo. Y, si ya se monta, la primera monta ahí mismo; si todavía no, el caballerango de la cuadra lo trabaja ahí frente a usted. A la semana y al mes, le escribimos para saber cómo se adaptó. Nada más.
+
+- Los 4 Pasos de la Ceremonia de Entrega:
+  01 · El Arribo:
+     Trenzado y presentado. Llegada con su cabezada de gala, crines impecablemente trenzadas y listo para recibir a su gente en su rancho.
+  02 · Documentación:
+     Carpeta de piel con papeles. Entrega formal de pasaporte europeo, certificado KFPS a su nombre y placa de latón distintiva grabada.
+  03 · La Primera Monta:
+     Estreno en su lienzo o pista. Si el nivel lo permite, primera monta en su rancho por usted o su caballerango; si es potro, trabajo frente a su familia.
+  04 · Postventa:
+     Seguimiento con discreción. Contacto personal a la semana y al mes para verificar adaptación. Jamás pedimos recomendaciones ni molestamos.
+
+
+================================================================================
+7. LA RAZA FRISÓN KFPS
+================================================================================
+- Antetítulo:
+  La raza KFPS
+
+- Título:
+  Un registro desde 1879.
+
+- Introducción:
+  La KFPS (Koninklijke Vereniging Het Friesch Paarden-Stamboek) lleva desde 1879 los libros genealógicos de cada frisón registrado: padres, criador, inspecciones y premios oficiales. Los de su caballo pasan a su nombre. Un gran caballo no es solo un placer personal o familiar; representa un símbolo de estatus, tradición y un activo patrimonial de valor perdurable.
+
+- Los 4 Pilares de la Raza:
+  1. RENTABILIDAD Y VALOR PATRIMONIAL:
+     Un frisón con pasaporte y papeles de Holanda conserva y acrecienta su valor en el mercado mexicano y de Estados Unidos. La pureza de sangre certificada por la KFPS protege su inversión frente a ejemplares sin registro. (Activo de alta plusvalía).
+  2. COMPROMISO DE AUTENTICIDAD:
+     En Cuadra Imperial Loy escogemos ejemplares uno por uno. Cada caballo se entrega sano, con su pasaporte original y papeles que pasan formalmente a nombre de su nuevo dueño. (Garantía por contrato).
+  3. RIGOR DE LOS LIBROS KFPS:
+     Los potros ingresan al Veulenboek; los machos enteros permanecen en él a menos que sean sementales aprobados (cerca de 100 en el mundo). Yeguas y castrados destacados ingresan al Stamboek de adultos tras su inspección. (Trazabilidad genealógica).
+  4. INSPECCIONES IMPARCIALES:
+     Las calificaciones de 1º, 2º o 3º premio son otorgadas por jueces oficiales que viajan desde Holanda para calificar conformación y trote sobre piso duro. No hay sesgo: la calidad la certifica un tercero. (Certificación imparcial KFPS).
+
+
+================================================================================
+8. FORMULARIO DE VISITA & PROTOCOLO
+================================================================================
+- Antetítulo:
+  La visita
+
+- Título:
+  Agende su visita.
+
+- Explicación:
+  La visita es en Zapotlanejo, Jalisco, a 38 minutos de Guadalajara. Llene el formulario y su mensaje nos llega directo por WhatsApp.
+  Cuando usted llega, el caballo ya está listo. Si ya se monta, lo monta usted o su caballerango. Si todavía no, el caballerango de la cuadra lo trabaja frente a usted. Nadie le pide que decida ese día.
+
+- Campos del Formulario:
+  * Su nombre completo (Obligatorio)
+  * Su teléfono / WhatsApp (Obligatorio)
+  * Fecha preferida para acudir
+  * Ejemplar que le interesa conocer (Tjerk, Willem, Kasper, Fedde, u Otro)
+  * Botones: [ENVIAR POR WHATSAPP] | [ESCRIBIR DIRECTO]
+  * Destino del formulario: Envía un mensaje formateado a WhatsApp (+52 33 1702 6066)
+
+- Protocolo de la Visita (Qué pasa cuando viene a la cuadra):
+  01 · El caballo ya está listo cuando usted llega (cepillado, ensillado si aplica o listo en caballeriza).
+  02 · Se le muestra en el picadero pie a tierra para apreciar aplomos, conformación y trote.
+  03 · Si es un ejemplar montado, lo monta usted o su caballerango para probar rienda, boca y asiento.
+  04 · Se le muestra en mano el pasaporte original de Holanda y se lee el chip con lector frente a usted.
+  05 · Su médico veterinario de confianza tiene total libertad para revisarlo a fondo.
+  06 · Nadie le pide que decida ese día; se le entrega toda la información para que la analice con su gente.
+
+- Ubicación:
+  Zapotlanejo, Jalisco · A 38 minutos de Guadalajara. Visitas privadas previa cita. Coordine su llegada de forma directa.
+
+
+================================================================================
+9. PREGUNTAS FRECUENTES (FAQ)
+================================================================================
+1. ¿CUÁNTO CUESTA UN CABALLO FRISÓN?
+   El precio varía según su nivel de formación (bailador, montado o potro por formar), alzada, edad y premios de inspección. En Cuadra Imperial Loy el precio se entrega en privado por WhatsApp o mensaje, en pesos mexicanos. Es el mismo precio para todos, llegue solo o con un aliado. No publicamos precios abiertos ni rangos en el sitio.
+
+2. ¿CÓMO SÉ SI UN FRISÓN ES PURO?
+   Por su pasaporte y certificado de registro oficial de la KFPS (registro holandés de la raza) emitidos en los Países Bajos. El documento detalla el libro de registro (Veulenboek o Stamboek), genealogía de varias generaciones y número de chip subcutáneo, el cual se compara físicamente en la visita con nuestro lector.
+
+3. ¿UN FRISÓN PUEDE SER CABALLO BAILADOR?
+   Sí. Su elevación natural de rodillas, cuello arqueado y disposición al trabajo lo convierten en un excelente caballo para baile y cabalgatas. En la cuadra tenemos ejemplares con nivel Bailador que ya trabajan montados con música, y potros jóvenes para formarlos a su mano.
+
+4. ¿PUEDO VER SU GENEALOGÍA ANTES DE IR?
+   Sí. En la ficha de cada caballo en esta web encuentra su árbol genealógico (padre, madre y padre de la madre). Además, por mensaje privado podemos compartirle copia del pasaporte antes de que agende su visita o realice cualquier apartado.
+
+5. ¿EXISTE EL FRISÓN BLANCO, PINTO O CAFÉ?
+   El estándar oficial del registro holandés KFPS solo admite caballos de capa negra pura (la única marca blanca permitida es una estrella pequeña en la frente). Caballos de otros colores corresponden a cruzas o registros alternativos ajenos al libro holandés.
+
+6. ¿IMPORTADO O NACIONAL?
+   Todos los caballos de Cuadra Imperial Loy son importados directamente de los Países Bajos, nacidos en Holanda y con pasaporte holandés original que pasa a nombre del nuevo propietario.
+
+7. ¿TODOS SE PUEDEN MONTAR?
+   Depende del nivel de cada ejemplar. Si el caballo es de nivel Bailador o Montado, lo monta usted o su caballerango en la visita. Si es de nivel Con rienda o Potro, todavía no se monta de forma regular y nuestro caballerango de la cuadra lo trabaja pie a tierra frente a usted.
+
+8. ¿QUÉ TAN ALTO ES UN FRISÓN?
+   La alzada se mide a la cruz en metros. En nuestras fichas técnicas el dato está medido y publicado caballo por caballo (por lo general oscila entre 1.66 m y 1.72 m).
+
+9. ¿ENTREGAN EN TODO MÉXICO?
+   Entregamos en México y en Estados Unidos. El costo y los tiempos del traslado se cotizan por escrito antes de firmar cualquier contrato. A Estados Unidos el protocolo contempla cuarentena y traslado coordinado.
+
+10. ¿PUEDO IR CON MI CABALLERANGO?
+    Su caballerango es bienvenido siempre, sin ningún problema. Al agendar le apartamos el tiempo necesario para que lo vea, lo monte y lo revise con calma. Y su médico veterinario, en la fecha que usted solicite.
+
+
+================================================================================
+10. PIE DE PÁGINA (FOOTER)
+================================================================================
+- Nombre: Cuadra Imperial Loy
+- Resumen: Caballos frisones en venta en Zapotlanejo, Jalisco. Entrega en México y Estados Unidos. Trato directo con la cuadra.
+- Enlaces de Navegación Rápida:
+  * Catálogo de caballos
+  * Agendar visita
+  * Garantía contractual
+  * La cuadra
+- Documentación y Garantías:
+  * Pasaporte KFPS Holanda
+  * Revisión veterinaria
+  * Contrato formal
+  * Ceremonia de entrega
+- Contacto Directo:
+  * Ubicación: Zapotlanejo, Jalisco, México (A 38 minutos de Guadalajara).
+  * Teléfono / WhatsApp: +52 33 1702 6066
+- Derechos Reservados:
+  * © 2026 Cuadra Imperial Loy. Todos los derechos reservados.
+  * Aviso de privacidad (/privacidad)
+  * Términos y condiciones (/terminos)
+
+
+================================================================================
+11. MARCO LEGAL: TÉRMINOS, CONDICIONES Y POLÍTICA DE PRIVACIDAD
+================================================================================
+- POLÍTICA DE PRIVACIDAD:
+  Los datos recabados en los formularios y canales de mensajería (nombre, teléfono y preferencias de ejemplares) se utilizan de manera estrictamente confidencial para coordinar visitas privadas a la cuadra y brindar información técnica y genealógica de los caballos disponibles. No se transfieren a terceros con fines publicitarios.
+
+- POLÍTICA COMERCIAL Y DE PRECIOS:
+  Los precios de cada ejemplar se proporcionan en privado a quien lo solicite, expresados en moneda nacional (pesos mexicanos) o dólares estadounidenses. El precio es exactamente el mismo para todos los clientes, ya sea que acudan de forma directa o acompañados por un aliado o asesor. No existen descuentos discrecionales ni variaciones de precio en función del comprador.
+
+================================================================================
+                              FIN DEL DOCUMENTO
+================================================================================
